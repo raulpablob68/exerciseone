@@ -29,9 +29,9 @@ public class FamilyController {
     return familyService.get(familyId);
   }
 
-  @PostMapping("/api/1.0/families")
-  public void add(@RequestBody Family family) {
-    familyService.post(family);
+  @PostMapping("/api/1.0/families/{parentId}")
+  public void add(@RequestBody Family family, @PathVariable int parentId) {
+    familyService.post(family, parentId);
   }
 
   @PutMapping("/api/1.0/families/{familyId}")

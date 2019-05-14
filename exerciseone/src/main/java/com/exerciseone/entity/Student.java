@@ -1,5 +1,7 @@
 package com.exerciseone.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.Date;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -34,7 +36,8 @@ public class Student {
   private Date dateOfBirth;
   @Column(name = "other_student_details")
   private String otherStudentDetails;
-  
+
+  @JsonIgnore
   @ManyToMany(cascade = CascadeType.PERSIST)
   @JoinTable(name = "Student_Parents", 
       joinColumns = @JoinColumn(name = "student_id", referencedColumnName = "studentId"), 
@@ -42,20 +45,21 @@ public class Student {
   private Set<Parent> parents;
 
   public Student() {
-    
+
   }
 
   /**
    * Contructor para la relación @ManyToMany.
-   * @param gender gender
-   * @param firstName firstName
-   * @param middleName middleName
-   * @param lastName lastName
-   * @param dateOfBirth dateOfBirth
+   * 
+   * @param gender              gender
+   * @param firstName           firstName
+   * @param middleName          middleName
+   * @param lastName            lastName
+   * @param dateOfBirth         dateOfBirth
    * @param otherStudentDetails otherStudentDetails
-   * @param parents Objeto de la clase Parent
+   * @param parents             Objeto de la clase Parent
    */
-  public Student(String gender, String firstName, String middleName, String lastName,
+  public Student(String gender, String firstName, String middleName, String lastName, 
       Date dateOfBirth, String otherStudentDetails, Parent... parents) {
     this.gender = gender;
     this.firstName = firstName;

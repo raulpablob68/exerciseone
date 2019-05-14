@@ -1,6 +1,7 @@
 package com.exerciseone.service;
 
 import com.exerciseone.dao.IFamilyDao;
+import com.exerciseone.dao.IParentDao;
 import com.exerciseone.entity.Family;
 
 import java.util.List;
@@ -13,11 +14,16 @@ public class FamilyServiceImpl implements IFamilyService {
 
   @Autowired
   private IFamilyDao familyDao;
+  
+  @Autowired
+  private IParentDao parentDao;
 
   @Override
   public Family get(int familyId) {
     return familyDao.findById(familyId).get();
   }
+  
+
 
   @Override
   public List<Family> getAll() {
@@ -25,8 +31,11 @@ public class FamilyServiceImpl implements IFamilyService {
   }
 
   @Override
-  public void post(Family family) {
-    familyDao.save(family);
+  public void post(Family family, int parentId) {
+    parentDao.findById(parentId).ifPresent((p) -> {
+      family.setParent(p);
+      familyDao.save(family);
+    });
   }
 
   @Override

@@ -1,5 +1,7 @@
 package com.exerciseone.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -26,9 +28,13 @@ public class Family {
   @OneToOne(cascade = CascadeType.ALL)
   @JoinColumn(name = "head_of_family_parent_id", referencedColumnName = "parentId")
   private Parent parent;
-  
+
+  @JsonIgnore
   @OneToMany(mappedBy = "family")
   private List<FamilyMember> familyMemberList;
+
+  public Family() {
+  }
 
   public int getFamilyId() {
     return familyId;

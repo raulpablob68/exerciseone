@@ -1,6 +1,9 @@
 package com.exerciseone.service;
 
+import com.exerciseone.dao.IFamilyDao;
 import com.exerciseone.dao.IFamilyMemberDao;
+import com.exerciseone.dao.IParentDao;
+import com.exerciseone.dao.IStudentDao;
 import com.exerciseone.entity.FamilyMember;
 
 import java.util.List;
@@ -14,6 +17,15 @@ public class FamilyMemberServiceImpl implements IFamilyMemberService {
   @Autowired
   private IFamilyMemberDao familyMemberDao;
 
+  @Autowired
+  private IFamilyDao familyDao;
+
+  @Autowired
+  private IParentDao parentDao;
+
+  @Autowired
+  private IStudentDao studentDao;
+
   @Override
   public FamilyMember get(int familyMemberId) {
     return familyMemberDao.findById(familyMemberId).get();
@@ -25,7 +37,19 @@ public class FamilyMemberServiceImpl implements IFamilyMemberService {
   }
 
   @Override
-  public void post(FamilyMember familyMember) {
+  public void post(FamilyMember familyMember, int familyId, String parentOrStudentMember, int id) {
+    familyDao.findById(familyId).ifPresent((f) -> {
+      familyMember.setFamily(f);
+      if (parentOrStudentMember.equals("P")) {
+        parentDao.findById(id).ifPresent((p) -> {
+          familyMember.setParent(p);
+        });
+      } else if (parentOrStudentMember.equals("S")) {
+        studentDao.findById(id).ifPresent((s) -> {
+          familyMember.setStudent(s);
+        });
+      }
+    });
     familyMemberDao.save(familyMember);
   }
 

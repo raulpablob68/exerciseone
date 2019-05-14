@@ -1,5 +1,7 @@
 package com.exerciseone.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,7 +18,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "Parents")
 public class Parent {
-  @Id
+  @Id 
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int parentId;
   @Column(name = "gender")
@@ -30,9 +32,11 @@ public class Parent {
   @Column(name = "other_parent_details")
   private String otherParentDetails;
 
+  @JsonIgnore
   @ManyToMany(mappedBy = "parents", cascade = CascadeType.PERSIST)
   private Set<Student> students = new HashSet<>();
 
+  @JsonIgnore
   @OneToOne(mappedBy = "parent")
   private Family family;
 

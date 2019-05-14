@@ -22,17 +22,20 @@ public class FamilyMember {
   @ManyToOne
   @JoinColumn(name = "family_id")
   private Family family;
-  
+
   @Column(name = "parent_or_student_member")
   private String parentOrStudentMember;
-  
+
   @OneToOne(cascade = CascadeType.ALL)
   @JoinColumn(name = "parent_id", nullable = true, referencedColumnName = "parentId")
   private Parent parent;
-  
+
   @OneToOne(cascade = CascadeType.ALL)
   @JoinColumn(name = "student_id", nullable = true, referencedColumnName = "studentId")
   private Student student;
+
+  public FamilyMember() {
+  }
 
   public int getFamilyMemberId() {
     return familyMemberId;

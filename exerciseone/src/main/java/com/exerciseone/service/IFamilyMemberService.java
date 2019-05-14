@@ -9,7 +9,7 @@ public interface IFamilyMemberService {
 
   public List<FamilyMember> getAll();
 
-  public void post(FamilyMember familyMember);
+  public void post(FamilyMember familyMember, int familyId, String parentOrStudentMember, int id);
 
   public void put(FamilyMember familyMember, int familyMemberId);
 
