@@ -1,0 +1,45 @@
+package com.exerciseone.service;
+
+import com.exerciseone.dao.IStudentDao;
+import com.exerciseone.entity.Student;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class StudentServiceImpl implements IStudentService {
+
+  @Autowired
+  private IStudentDao studentDao;
+
+  @Override
+  public Student get(int studentId) {
+    return studentDao.findById(studentId).get();
+  }
+
+  @Override
+  public List<Student> getAll() {
+    return (List<Student>) studentDao.findAll();
+  }
+
+  @Override
+  public void post(Student student) {
+    studentDao.save(student);
+  }
+
+  @Override
+  public void put(Student student, int studentId) {
+    studentDao.findById(studentId).ifPresent((s) -> {
+      student.setStudentId(studentId);
+      studentDao.save(student);
+    });
+  }
+
+  @Override
+  public void delete(int studentId) {
+    studentDao.deleteById(studentId);
+  }
+
+}
