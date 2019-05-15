@@ -1,8 +1,10 @@
 package com.exerciseone.service;
 
 import com.exerciseone.dao.IFamilyDao;
+import com.exerciseone.dao.IFamilyMemberDao;
 import com.exerciseone.dao.IParentDao;
 import com.exerciseone.entity.Family;
+import com.exerciseone.entity.FamilyMember;
 
 import java.util.List;
 
@@ -14,16 +16,17 @@ public class FamilyServiceImpl implements IFamilyService {
 
   @Autowired
   private IFamilyDao familyDao;
-  
+
   @Autowired
   private IParentDao parentDao;
+
+  @Autowired
+  private IFamilyMemberDao familyMemberDao;
 
   @Override
   public Family get(int familyId) {
     return familyDao.findById(familyId).get();
   }
-  
-
 
   @Override
   public List<Family> getAll() {
@@ -49,6 +52,11 @@ public class FamilyServiceImpl implements IFamilyService {
   @Override
   public void delete(int familyId) {
     familyDao.deleteById(familyId);
+  }
+
+  @Override
+  public List<FamilyMember> getFamilyMembers(int familyId) {
+    return (List<FamilyMember>) familyMemberDao.findByFamilyFamilyId(familyId);
   }
 
 }

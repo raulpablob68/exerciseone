@@ -18,6 +18,11 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
+/** Class for entity Student.
+ * 
+ * @author rbarrief
+ *
+ */
 @Entity
 @Table(name = "Students")
 public class Student {
@@ -58,6 +63,8 @@ public class Student {
    * @param dateOfBirth         dateOfBirth
    * @param otherStudentDetails otherStudentDetails
    * @param parents             Objeto de la clase Parent
+   * 
+   * @author rbarrief
    */
   public Student(String gender, String firstName, String middleName, String lastName, 
       Date dateOfBirth, String otherStudentDetails, Parent... parents) {

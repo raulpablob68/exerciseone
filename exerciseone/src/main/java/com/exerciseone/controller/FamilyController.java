@@ -1,6 +1,7 @@
 package com.exerciseone.controller;
 
 import com.exerciseone.entity.Family;
+import com.exerciseone.entity.FamilyMember;
 import com.exerciseone.service.IFamilyService;
 
 import java.util.List;
@@ -27,6 +28,11 @@ public class FamilyController {
   @GetMapping("/api/1.0/families/{familyId}")
   public Family getOne(@PathVariable(value = "familyId") int familyId) {
     return familyService.get(familyId);
+  }
+
+  @GetMapping("/api/1.0/families/{familyId}/members")
+  public List<FamilyMember> getFamilyMembers(@PathVariable(value = "familyId") int familyId) {
+    return familyService.getFamilyMembers(familyId);
   }
 
   @PostMapping("/api/1.0/families/{parentId}")
