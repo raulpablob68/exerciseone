@@ -14,26 +14,48 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import org.springframework.lang.Nullable;
+
+/**
+ * Clase entidad Parent. Contiene los atributos de padre, y las
+ * relaciones @ManyToMany con Student y @OneToOne con Family.
+ * 
+ * @see Student
+ * @see Family
+ * 
+ * @author rbarrief
+ * 
+ */
 @Data
 @NoArgsConstructor
 @Entity
 @Table(name = "Parents")
 public class Parent {
-  @Id 
+  @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int parentId;
   @Column(name = "gender")
   private String gender;
+  @NotBlank(message = "First name cannot be empty")
+  @Size(min = 2, max = 200)
   @Column(name = "first_name")
   private String firstName;
+  @Nullable
+  @Size(min = 2, max = 200)
   @Column(name = "middle_name")
   private String middleName;
+  @NotBlank(message = "Last name cannot be empty")
+  @Size(min = 2, max = 200)
   @Column(name = "last_name")
   private String lastName;
+  @Size(min = 2, max = 200)
+  @Nullable
   @Column(name = "other_parent_details")
   private String otherParentDetails;
 

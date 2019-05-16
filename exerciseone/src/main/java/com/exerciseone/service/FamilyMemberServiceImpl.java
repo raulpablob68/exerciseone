@@ -37,7 +37,8 @@ public class FamilyMemberServiceImpl implements IFamilyMemberService {
   }
 
   @Override
-  public void post(FamilyMember familyMember, int familyId, String parentOrStudentMember, int id) {
+  public FamilyMember post(FamilyMember familyMember, int familyId, String parentOrStudentMember,
+      int id) {
     familyDao.findById(familyId).ifPresent((f) -> {
       familyMember.setFamily(f);
       if (parentOrStudentMember.equals("P")) {
@@ -50,15 +51,16 @@ public class FamilyMemberServiceImpl implements IFamilyMemberService {
         });
       }
     });
-    familyMemberDao.save(familyMember);
+    return familyMemberDao.save(familyMember);
   }
 
   @Override
-  public void put(FamilyMember familyMember, int familyMemberId) {
+  public FamilyMember put(FamilyMember familyMember, int familyMemberId) {
     familyMemberDao.findById(familyMemberId).ifPresent((f) -> {
       familyMember.setFamilyMemberId(familyMemberId);
       familyMemberDao.save(familyMember);
     });
+    return familyMember;
   }
 
   @Override

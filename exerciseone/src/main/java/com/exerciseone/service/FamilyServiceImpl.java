@@ -34,19 +34,21 @@ public class FamilyServiceImpl implements IFamilyService {
   }
 
   @Override
-  public void post(Family family, int parentId) {
+  public Family post(Family family, int parentId) {
     parentDao.findById(parentId).ifPresent((p) -> {
       family.setParent(p);
       familyDao.save(family);
-    });    
+    });
+    return family;    
   }
 
   @Override
-  public void put(Family family, int familyId) {
+  public Family put(Family family, int familyId) {
     familyDao.findById(familyId).ifPresent((f) -> {
       family.setFamilyId(familyId);
       familyDao.save(family);
     });
+    return family;
   }
 
   @Override

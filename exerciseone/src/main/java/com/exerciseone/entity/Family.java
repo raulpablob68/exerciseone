@@ -18,7 +18,12 @@ import javax.persistence.Table;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/** Entity class Family.
+/**
+ * Clase entidad de Family. Contiene los atributos de la familia, y las
+ * relaciones @OneToMany con FamilyMember y @OneToOne con Parent.
+ * 
+ * @see FamilyMember
+ * @see Parent
  * 
  * @author rbarrief
  *

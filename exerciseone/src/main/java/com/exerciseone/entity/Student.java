@@ -17,10 +17,23 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import org.springframework.lang.Nullable;
+
+/**
+ * Clase entidad Student. Contiene los atributos del estudiante y la
+ * relación @ManyToMany con Parent.
+ * 
+ * @see Parent
+ * 
+ * @author rbarrief
+ * 
+ */
 @Data
 @NoArgsConstructor
 @Entity
@@ -31,37 +44,48 @@ public class Student {
   private int studentId;
   @Column(name = "gender")
   private String gender;
+  @NotBlank(message = "First name cannot be empty")
+  @Size(min = 2, max = 200)
   @Column(name = "first_name")
   private String firstName;
+  @Nullable
+  @Size(min = 2, max = 200)
   @Column(name = "middle_name")
   private String middleName;
+  @NotBlank(message = "Last name cannot be empty")
+  @Size(min = 2, max = 200)
   @Column(name = "last_name")
   private String lastName;
   @Column(name = "date_of_birth")
   private Date dateOfBirth;
+  @Nullable
+  @Size(min = 2, max = 200)
   @Column(name = "other_student_details")
   private String otherStudentDetails;
 
   @JsonIgnore
   @ManyToMany(cascade = CascadeType.PERSIST)
-  @JoinTable(name = "Student_Parents", 
-      joinColumns = @JoinColumn(name = "student_id", referencedColumnName = "studentId"), 
-      inverseJoinColumns = @JoinColumn(name = "parent_id", referencedColumnName = "parentId"))
+  @JoinTable(name = "Student_Parents",
+             joinColumns = @JoinColumn(name = "student_id", referencedColumnName = "studentId"),
+             inverseJoinColumns = @JoinColumn(name = "parent_id",
+                                              referencedColumnName = "parentId"))
   private Set<Parent> parents;
 
   /**
-   * Contructor para la relación @ManyToMany.
+   * Contructor de Student para la relación @ManyToMany.
    * 
-   * @param gender              gender
-   * @param firstName           firstName
-   * @param middleName          middleName
-   * @param lastName            lastName
-   * @param dateOfBirth         dateOfBirth
-   * @param otherStudentDetails otherStudentDetails
-   * @param parents             Objeto de la clase Parent
+   * @param gender              Género
+   * @param firstName           Primer nombre
+   * @param middleName          Segundo nombre
+   * @param lastName            Apellido
+   * @param dateOfBirth         Fecha de nacimiento
+   * @param otherStudentDetails Otros detalles de Student
+   * @param parents             Colección de la clase Parent
+   * 
    * @author rbarrief
+   * 
    */
-  public Student(String gender, String firstName, String middleName, String lastName, 
+  public Student(String gender, String firstName, String middleName, String lastName,
       Date dateOfBirth, String otherStudentDetails, Parent... parents) {
     this.gender = gender;
     this.firstName = firstName;

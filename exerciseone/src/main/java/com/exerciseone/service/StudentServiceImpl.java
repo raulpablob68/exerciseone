@@ -25,16 +25,17 @@ public class StudentServiceImpl implements IStudentService {
   }
 
   @Override
-  public void post(Student student) {
-    studentDao.save(student);
+  public Student post(Student student) {
+    return studentDao.save(student);
   }
 
   @Override
-  public void put(Student student, int studentId) {
+  public Student put(Student student, int studentId) {
     studentDao.findById(studentId).ifPresent((s) -> {
       student.setStudentId(studentId);
       studentDao.save(student);
     });
+    return student;
   }
 
   @Override

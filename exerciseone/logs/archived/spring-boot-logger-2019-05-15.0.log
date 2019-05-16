@@ -1,0 +1,56 @@
+2019-05-15 16:00:22,677 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 6532 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 16:00:22,678 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 16:00:22,679 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 16:00:24,937 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 2.432 seconds (JVM running for 7010.076)
+2019-05-15 16:03:04,555 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 6532 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 16:03:04,555 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 16:03:04,556 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 16:03:06,115 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.747 seconds (JVM running for 7171.257)
+2019-05-15 16:15:34,900 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 12704 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 16:15:34,907 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 16:15:34,908 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 16:15:44,167 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 10.353 seconds (JVM running for 15.099)
+2019-05-15 18:05:12,457 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 12704 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 18:05:12,458 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 18:05:12,458 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 18:05:19,337 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 7.209 seconds (JVM running for 6590.155)
+2019-05-15 18:52:58,359 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 12704 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 18:52:58,360 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 18:52:58,360 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 18:53:00,916 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 2.781 seconds (JVM running for 9451.694)
+2019-05-15 18:58:43,626 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 12704 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 18:58:43,626 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 18:58:43,627 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 18:58:45,091 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.525 seconds (JVM running for 9795.865)
+2019-05-15 18:59:26,614 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 12704 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 18:59:26,615 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 18:59:26,616 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 18:59:28,304 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.738 seconds (JVM running for 9839.077)
+2019-05-15 18:59:35,444 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 12704 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 18:59:35,445 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 18:59:35,445 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 18:59:36,935 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.53 seconds (JVM running for 9847.708)
+2019-05-15 18:59:51,364 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 12704 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 18:59:51,364 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 18:59:51,365 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 18:59:52,604 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.278 seconds (JVM running for 9863.377)
+2019-05-15 18:59:57,785 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 12704 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 18:59:57,786 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 18:59:57,786 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 18:59:59,151 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.404 seconds (JVM running for 9869.923)
+2019-05-15 19:00:21,391 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 11168 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 19:00:21,423 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 19:00:21,424 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 19:00:31,771 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 12.355 seconds (JVM running for 17.404)
+2019-05-15 19:04:25,288 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 11168 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 19:04:25,288 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 19:04:25,289 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 19:04:26,829 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.6 seconds (JVM running for 252.458)
+2019-05-15 19:04:42,308 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 11168 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 19:04:42,309 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 19:04:42,309 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 19:04:43,811 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.551 seconds (JVM running for 269.44)
+2019-05-15 19:05:03,321 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 11168 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-15 19:05:03,322 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 19:05:03,322 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-15 19:05:04,744 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 1.462 seconds (JVM running for 290.372)
