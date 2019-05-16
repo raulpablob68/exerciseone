@@ -15,6 +15,16 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/** Entity class Family.
+ * 
+ * @author rbarrief
+ *
+ */
+@Data
+@NoArgsConstructor
 @Entity
 @Table(name = "Families")
 public class Family {
@@ -33,38 +43,4 @@ public class Family {
   @OneToMany(mappedBy = "family")
   private List<FamilyMember> familyMemberList;
 
-  public Family() {
-  }
-
-  public int getFamilyId() {
-    return familyId;
-  }
-
-  public void setFamilyId(int familyId) {
-    this.familyId = familyId;
-  }
-
-  public String getFamilyName() {
-    return familyName;
-  }
-
-  public void setFamilyName(String familyName) {
-    this.familyName = familyName;
-  }
-
-  public Parent getParent() {
-    return parent;
-  }
-
-  public void setParent(Parent parent) {
-    this.parent = parent;
-  }
-
-  public List<FamilyMember> getFamilyMemberList() {
-    return familyMemberList;
-  }
-
-  public void setFamilyMemberList(List<FamilyMember> familyMemberList) {
-    this.familyMemberList = familyMemberList;
-  }
 }

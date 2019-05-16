@@ -15,6 +15,11 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
 @Entity
 @Table(name = "Parents")
 public class Parent {
@@ -40,70 +45,4 @@ public class Parent {
   @OneToOne(mappedBy = "parent")
   private Family family;
 
-  public Parent() {
-  }
-
-  public int getParentId() {
-    return parentId;
-  }
-
-  public void setParentId(int parentId) {
-    this.parentId = parentId;
-  }
-
-  public String getGender() {
-    return gender;
-  }
-
-  public void setGender(String gender) {
-    this.gender = gender;
-  }
-
-  public String getFirstName() {
-    return firstName;
-  }
-
-  public void setFirstName(String firstName) {
-    this.firstName = firstName;
-  }
-
-  public String getMiddleName() {
-    return middleName;
-  }
-
-  public void setMiddleName(String middleName) {
-    this.middleName = middleName;
-  }
-
-  public String getLastName() {
-    return lastName;
-  }
-
-  public void setLastName(String lastName) {
-    this.lastName = lastName;
-  }
-
-  public String getOtherParentDetails() {
-    return otherParentDetails;
-  }
-
-  public void setOtherParentDetails(String otherParentDetails) {
-    this.otherParentDetails = otherParentDetails;
-  }
-
-  public Set<Student> getStudents() {
-    return students;
-  }
-
-  public void setStudents(Set<Student> students) {
-    this.students = students;
-  }
-
-  public Family getFamily() {
-    return family;
-  }
-
-  public void setFamily(Family family) {
-    this.family = family;
-  }
 }

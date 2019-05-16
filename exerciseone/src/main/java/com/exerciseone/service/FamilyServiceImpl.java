@@ -38,7 +38,7 @@ public class FamilyServiceImpl implements IFamilyService {
     parentDao.findById(parentId).ifPresent((p) -> {
       family.setParent(p);
       familyDao.save(family);
-    });
+    });    
   }
 
   @Override
