@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ParentController {
   Logger log = LoggerFactory.getLogger(this.getClass());
-  @Autowired
+  @Autowired(required = true)
   IParentService parentService;
 
   /**

@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class FamilyController {
-  @Autowired
+  @Autowired(required = true)
   IFamilyService familyService;
 
   /**

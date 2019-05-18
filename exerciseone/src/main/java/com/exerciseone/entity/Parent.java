@@ -67,4 +67,28 @@ public class Parent {
   @OneToOne(mappedBy = "parent")
   private Family family;
 
+  /**
+   * Contructor adicional para Parent.
+   * @param parentId Identificador de la clase
+   * @param gender Género.
+   * @param firstName Primer nombre.
+   * @param middleName Segundo nombre.
+   * @param lastName Apellido.
+   * @param otherParentDetails Otros detalles.
+   */
+  public Parent(int parentId, String gender,
+      @NotBlank(message = "First name cannot be empty") @Size(min = 2, max = 200) String firstName,
+      @Size(min = 2, max = 200) String middleName,
+      @NotBlank(message = "Last name cannot be empty") @Size(min = 2, max = 200) String lastName,
+      @Size(min = 2, max = 200) String otherParentDetails) {
+    this.parentId = parentId;
+    this.gender = gender;
+    this.firstName = firstName;
+    this.middleName = middleName;
+    this.lastName = lastName;
+    this.otherParentDetails = otherParentDetails;
+  }
+
+  
+  
 }
