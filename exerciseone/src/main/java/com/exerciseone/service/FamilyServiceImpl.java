@@ -48,7 +48,7 @@ public class FamilyServiceImpl implements IFamilyService {
       family.setFamilyId(familyId);
       familyDao.save(family);
     });
-    return family;
+    return null;
   }
 
   @Override

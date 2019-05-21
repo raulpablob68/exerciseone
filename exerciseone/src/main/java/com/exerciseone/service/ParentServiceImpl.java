@@ -5,6 +5,8 @@ import com.exerciseone.entity.Parent;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +21,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ParentServiceImpl implements IParentService {
 
+  Logger log = LoggerFactory.getLogger(this.getClass());
   @Autowired
   private IParentDao parentDao;
 
@@ -36,7 +39,8 @@ public class ParentServiceImpl implements IParentService {
    */
   @Override
   public Parent get(int parentId) {
-    return parentDao.findById(parentId).get();
+    Parent parent = parentDao.findById(parentId).get();
+    return parent;
   }
 
   @Override
@@ -46,7 +50,17 @@ public class ParentServiceImpl implements IParentService {
 
   @Override
   public Parent post(Parent parent) {
-    return parentDao.save(parent);
+    log.info("Parent es: " + (parent != null));
+    log.info("getGender: " + parent.getGender());
+    log.info("getFirstName: " + parent.getFirstName());
+    log.info("getMiddleName: " + parent.getMiddleName());
+    log.info("getLastName: " + parent.getLastName());
+    log.info("getOtherParentDetails: " + parent.getOtherParentDetails());
+    //    if ((parent.getMiddleName().trim().equals("")) || (parent.getMiddleName() == null)) {
+    //      parent.setMiddleName("");
+    //    }
+    parentDao.save(parent);
+    return parent;
   }
 
   @Override

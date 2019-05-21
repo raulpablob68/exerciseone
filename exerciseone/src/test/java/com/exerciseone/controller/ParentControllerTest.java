@@ -1,8 +1,10 @@
 package com.exerciseone.controller;
 
-import com.exerciseone.controller.ParentController;
 import com.exerciseone.entity.Parent;
 import com.exerciseone.service.ParentServiceImpl;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,9 +34,37 @@ public class ParentControllerTest {
    * Instancia de Parent para realizar estas pruebas unitarias.
    */
   Parent parentMock = new Parent(6, "M", "José", "José", "Jirones", "Otros");
+  List<Parent> listParentMock = new ArrayList<Parent>();
+
+  /**
+   * Valida que el resultado de obtener una colección de objetos de tipo Parent ES
+   * igual a lo esperado. Emplea assertEquals.
+   * 
+   * @throws Exception Control de excepciones.
+   */
+  @Test
+  public void testGetAllTrue() throws Exception {
+    listParentMock.add(new Parent(6, "M", "José", "José", "Jirones", "Otros"));
+    listParentMock.add(new Parent(7, "F", "Roxana", "Juana", "Reyes", "Otros"));
+    Mockito.when(parentServiceImpl.getAll()).thenReturn(listParentMock);
+
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/1.0/parents/")
+        .accept(MediaType.APPLICATION_JSON);
+
+    MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+
+    System.out.println(result.getResponse());
+    String expected = "[{parentId:6,gender:M,firstName:José,middleName:José,"
+        + "lastName:Jirones,otherParentDetails:Otros},"
+        + "{parentId:7,gender:F,firstName:Roxana,middleName:Juana,"
+        + "lastName:Reyes,otherParentDetails:Otros}]";
+
+    JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), true);
+  }
 
   /**
    * Valida que el resultado ES igual a lo esperado. Emplea assertEquals.
+   * 
    * @throws Exception Control de excepciones.
    */
   @Test
@@ -52,16 +82,17 @@ public class ParentControllerTest {
 
     JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), true);
   }
-  
+
   /**
    * Valida que el resultado NO es igual a lo esperado. Emplea assertNotEquals.
+   * 
    * @throws Exception Control de excepciones.
    */
   @Test
   public void testGetOneFalse() throws Exception {
     Mockito.when(parentServiceImpl.get(Mockito.anyInt())).thenReturn(parentMock);
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/1.0/parents/6")
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/1.0/parents/7")
         .accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
@@ -73,4 +104,9 @@ public class ParentControllerTest {
     JSONAssert.assertNotEquals(expected, result.getResponse().getContentAsString(), true);
   }
 
+  @Test
+  public void testAdd() throws Exception {
+    
+  }
+  
 }
