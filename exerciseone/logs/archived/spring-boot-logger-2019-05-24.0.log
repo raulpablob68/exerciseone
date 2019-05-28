@@ -1,0 +1,111 @@
+2019-05-24 11:31:42,827 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 1248 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 11:31:42,833 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 11:31:42,834 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 11:31:49,128 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 11:31:57,963 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 16.353 seconds (JVM running for 18.34)
+2019-05-24 11:33:05,424 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 1248 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 11:33:05,424 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 11:33:05,425 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 11:33:06,553 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 11:33:08,001 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 2.64 seconds (JVM running for 88.376)
+2019-05-24 11:36:19,960 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 1248 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 11:36:19,960 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 11:36:19,961 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 11:36:20,889 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 11:36:22,260 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 2.354 seconds (JVM running for 282.63)
+2019-05-24 11:36:40,971 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 1248 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 11:36:40,973 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 11:36:40,973 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 11:36:42,470 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 11:36:43,682 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 2.863 seconds (JVM running for 304.05)
+2019-05-24 11:37:21,654 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 10472 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 11:37:21,667 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 11:37:21,669 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 11:37:24,151 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 11:37:28,614 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 7.448 seconds (JVM running for 8.823)
+2019-05-24 11:40:57,858 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 10944 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 11:40:57,872 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 11:40:57,874 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 11:41:00,457 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 11:41:05,392 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 8.02 seconds (JVM running for 9.498)
+2019-05-24 11:43:05,400 INFO com.exerciseone.controller.ParentController [https-jsse-nio-9900-exec-5] Registrando nuevo Parent.
+2019-05-24 11:43:05,401 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] Parent es: true
+2019-05-24 11:43:05,402 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getGender: F
+2019-05-24 11:43:05,402 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getFirstName: Fabiola
+2019-05-24 11:43:05,402 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getMiddleName: null
+2019-05-24 11:43:05,403 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getLastName: Fuentes
+2019-05-24 11:43:05,403 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getOtherParentDetails: Otros
+2019-05-24 11:47:38,312 INFO com.exerciseone.controller.ParentController [https-jsse-nio-9900-exec-2] Registrando nuevo Parent.
+2019-05-24 11:47:38,313 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-2] Parent es: true
+2019-05-24 11:47:38,313 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-2] getGender: M
+2019-05-24 11:47:38,314 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-2] getFirstName: Fabricio
+2019-05-24 11:47:38,314 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-2] getMiddleName: null
+2019-05-24 11:47:38,314 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-2] getLastName: Fuentes
+2019-05-24 11:47:38,315 INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-2] getOtherParentDetails: Otros
+2019-05-24 12:09:38,392 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 6448 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 12:09:38,407 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 12:09:38,408 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 12:09:43,425 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 12:09:51,641 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 15.032 seconds (JVM running for 21.435)
+2019-05-24 12:10:24,450 | 3B9387F16EAA44B78447B64B7A50D2D6 | INFO com.exerciseone.controller.ParentController [https-jsse-nio-9900-exec-5] Registrando nuevo Parent.
+2019-05-24 12:10:24,451 | 3B9387F16EAA44B78447B64B7A50D2D6 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] Parent es: true
+2019-05-24 12:10:24,451 | 3B9387F16EAA44B78447B64B7A50D2D6 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getGender: F
+2019-05-24 12:10:24,452 | 3B9387F16EAA44B78447B64B7A50D2D6 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getFirstName: Fanny
+2019-05-24 12:10:24,452 | 3B9387F16EAA44B78447B64B7A50D2D6 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getMiddleName: null
+2019-05-24 12:10:24,452 | 3B9387F16EAA44B78447B64B7A50D2D6 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getLastName: Fernandini
+2019-05-24 12:10:24,453 | 3B9387F16EAA44B78447B64B7A50D2D6 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getOtherParentDetails: Otros
+2019-05-24 12:11:23,554 | 77C4B5BA4E4E44489F1B35EC17B498DF | INFO com.exerciseone.controller.ParentController [https-jsse-nio-9900-exec-6] Registrando nuevo Parent.
+2019-05-24 12:11:23,555 | 77C4B5BA4E4E44489F1B35EC17B498DF | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] Parent es: true
+2019-05-24 12:11:23,556 | 77C4B5BA4E4E44489F1B35EC17B498DF | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getGender: F
+2019-05-24 12:11:23,556 | 77C4B5BA4E4E44489F1B35EC17B498DF | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getFirstName: Felipe
+2019-05-24 12:11:23,556 | 77C4B5BA4E4E44489F1B35EC17B498DF | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getMiddleName: null
+2019-05-24 12:11:23,557 | 77C4B5BA4E4E44489F1B35EC17B498DF | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getLastName: Fernandini
+2019-05-24 12:11:23,557 | 77C4B5BA4E4E44489F1B35EC17B498DF | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getOtherParentDetails: Otros
+2019-05-24 12:16:50,691 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 6448 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 12:16:50,692 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 12:16:50,692 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 12:16:52,090 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 12:16:53,458 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 2.999 seconds (JVM running for 443.243)
+2019-05-24 13:38:00,706 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 11276 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 13:38:00,724 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 13:38:00,725 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 13:38:05,031 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 13:38:13,074 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 13.443 seconds (JVM running for 18.029)
+2019-05-24 13:38:45,990 | EC18679EB2384CAF9D7EE645E70ECB07 | INFO com.exerciseone.controller.ParentController [https-jsse-nio-9900-exec-6] Registrando nuevo Parent.
+2019-05-24 13:38:45,991 | EC18679EB2384CAF9D7EE645E70ECB07 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] Parent es: true
+2019-05-24 13:38:45,991 | EC18679EB2384CAF9D7EE645E70ECB07 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getGender: F
+2019-05-24 13:38:45,992 | EC18679EB2384CAF9D7EE645E70ECB07 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getFirstName: Diana
+2019-05-24 13:38:45,993 | EC18679EB2384CAF9D7EE645E70ECB07 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getMiddleName: null
+2019-05-24 13:38:45,993 | EC18679EB2384CAF9D7EE645E70ECB07 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getLastName: Diaz
+2019-05-24 13:38:45,994 | EC18679EB2384CAF9D7EE645E70ECB07 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getOtherParentDetails: Otros
+2019-05-24 13:39:28,468 | 5CB089A0DE514F20A7D539D2094D4EF7 | INFO com.exerciseone.controller.ParentController [https-jsse-nio-9900-exec-5] Registrando nuevo Parent.
+2019-05-24 13:39:28,469 | 5CB089A0DE514F20A7D539D2094D4EF7 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] Parent es: true
+2019-05-24 13:39:28,470 | 5CB089A0DE514F20A7D539D2094D4EF7 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getGender: F
+2019-05-24 13:39:28,470 | 5CB089A0DE514F20A7D539D2094D4EF7 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getFirstName: Damian
+2019-05-24 13:39:28,471 | 5CB089A0DE514F20A7D539D2094D4EF7 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getMiddleName: null
+2019-05-24 13:39:28,471 | 5CB089A0DE514F20A7D539D2094D4EF7 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getLastName: Diaz
+2019-05-24 13:39:28,471 | 5CB089A0DE514F20A7D539D2094D4EF7 | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-5] getOtherParentDetails: Otros
+2019-05-24 13:55:07,742 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 1948 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 13:55:07,746 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 13:55:07,747 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 13:55:10,452 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 13:55:15,242 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 8.013 seconds (JVM running for 9.802)
+2019-05-24 13:55:51,177 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [https-jsse-nio-9900-exec-6] requestHeader sí está vacío.
+2019-05-24 13:55:51,178 | EA8D3D5C23944D0AB05CFC6B5CE2A36E | INFO com.exerciseone.logconfig.Slf4jMdcFilter [https-jsse-nio-9900-exec-6] responseHeader no está vacío.
+2019-05-24 13:55:51,295 | EA8D3D5C23944D0AB05CFC6B5CE2A36E | INFO com.exerciseone.controller.ParentController [https-jsse-nio-9900-exec-6] Registrando nuevo Parent.
+2019-05-24 13:55:51,295 | EA8D3D5C23944D0AB05CFC6B5CE2A36E | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] Parent es: true
+2019-05-24 13:55:51,296 | EA8D3D5C23944D0AB05CFC6B5CE2A36E | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getGender: M
+2019-05-24 13:55:51,297 | EA8D3D5C23944D0AB05CFC6B5CE2A36E | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getFirstName: Carlos
+2019-05-24 13:55:51,297 | EA8D3D5C23944D0AB05CFC6B5CE2A36E | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getMiddleName: null
+2019-05-24 13:55:51,298 | EA8D3D5C23944D0AB05CFC6B5CE2A36E | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getLastName: Cartagena
+2019-05-24 13:55:51,298 | EA8D3D5C23944D0AB05CFC6B5CE2A36E | INFO com.exerciseone.service.ParentServiceImpl [https-jsse-nio-9900-exec-6] getOtherParentDetails: Otros
+2019-05-24 15:37:46,458 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 840 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 15:37:46,488 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 15:37:46,489 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 15:37:50,358 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 15:37:58,362 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 13.052 seconds (JVM running for 17.73)
+2019-05-24 17:09:49,412 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 13588 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-24 17:09:49,515 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-24 17:09:49,517 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-24 17:11:03,307 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-24 17:11:14,423 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 105.106 seconds (JVM running for 110.282)
