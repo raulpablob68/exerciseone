@@ -16,6 +16,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  */
 public interface IStudentDao extends CrudRepository<Student, Integer> {
-  //@Query(value = "")
+  @Query("SELECT s FROM Student s WHERE s.studentId IN :listStudentId")
   List<Student> getAllStudentsByStudentId(List<Integer> listStudentId);
 }

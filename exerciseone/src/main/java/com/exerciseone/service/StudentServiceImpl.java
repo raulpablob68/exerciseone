@@ -45,8 +45,7 @@ public class StudentServiceImpl implements IStudentService {
 
   @Override
   public List<Student> getAllById(List<Integer> listStudentId) {
-    // TODO Auto-generated method stub
-    return null;
+    return studentDao.getAllStudentsByStudentId(listStudentId);
   }
 
 }

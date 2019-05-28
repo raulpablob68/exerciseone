@@ -41,6 +41,11 @@ public class StudentController {
   public ResponseEntity<List<Student>> getAllStudents() {
     return new ResponseEntity<List<Student>>(studentService.getAll(), HttpStatus.OK);
   }
+  
+  @GetMapping("/api/1.0/students/ids")
+  public ResponseEntity<List<Student>> getAllById(@RequestBody List<Integer> listStudentId) {
+    return new ResponseEntity<List<Student>>(studentService.getAllById(listStudentId), HttpStatus.OK);
+  }
 
   /**
    * Método orientado a obtener un objeto de la clase Student según criterio de
