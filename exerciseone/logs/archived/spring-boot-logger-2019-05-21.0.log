@@ -1,0 +1,8 @@
+2019-05-21 15:06:24,544 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CD5447TZF with PID 6408 (started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-21 15:06:24,550 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-21 15:06:24,556 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-21 15:06:31,553 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 8.774 seconds (JVM running for 12.697)
+2019-05-21 15:06:32,347 INFO org.springframework.boot.StartupInfoLogger [main] Starting ExerciseoneApplicationTests on LIM-5CD5447TZF with PID 6408 (started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-21 15:06:32,348 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-21 15:06:32,349 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-21 15:06:58,942 INFO org.springframework.boot.StartupInfoLogger [main] Started ExerciseoneApplicationTests in 26.718 seconds (JVM running for 40.086)

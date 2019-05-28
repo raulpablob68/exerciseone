@@ -15,8 +15,10 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * Clase entidad de Family. Contiene los atributos de la familia, y las
@@ -28,8 +30,10 @@ import lombok.NoArgsConstructor;
  * @author rbarrief
  *
  */
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "Families")
 public class Family {
@@ -43,6 +47,9 @@ public class Family {
   @OneToOne(cascade = CascadeType.ALL)
   @JoinColumn(name = "head_of_family_parent_id", referencedColumnName = "parentId")
   private Parent parent;
+  
+  @Column(name = "family_status")
+  private int familyStatus;
 
   @JsonIgnore
   @OneToMany(mappedBy = "family")

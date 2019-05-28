@@ -17,8 +17,10 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import org.springframework.lang.Nullable;
 
@@ -32,8 +34,10 @@ import org.springframework.lang.Nullable;
  * @author rbarrief
  * 
  */
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "Parents")
 public class Parent {
@@ -58,6 +62,8 @@ public class Parent {
   @Nullable
   @Column(name = "other_parent_details")
   private String otherParentDetails;
+  @Column(name = "parent_status")
+  private int parentStatus;
 
   @JsonIgnore
   @ManyToMany(mappedBy = "parents", cascade = CascadeType.PERSIST)
@@ -69,11 +75,12 @@ public class Parent {
 
   /**
    * Contructor adicional para Parent.
-   * @param parentId Identificador de la clase
-   * @param gender Género.
-   * @param firstName Primer nombre.
-   * @param middleName Segundo nombre.
-   * @param lastName Apellido.
+   * 
+   * @param parentId           Identificador de la clase
+   * @param gender             Género.
+   * @param firstName          Primer nombre.
+   * @param middleName         Segundo nombre.
+   * @param lastName           Apellido.
    * @param otherParentDetails Otros detalles.
    */
   public Parent(int parentId, String gender,
@@ -89,6 +96,4 @@ public class Parent {
     this.otherParentDetails = otherParentDetails;
   }
 
-  
-  
 }

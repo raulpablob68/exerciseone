@@ -20,8 +20,9 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import org.springframework.lang.Nullable;
 
@@ -34,7 +35,8 @@ import org.springframework.lang.Nullable;
  * @author rbarrief
  * 
  */
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @Entity
 @Table(name = "Students")
@@ -62,13 +64,14 @@ public class Student {
   @Size(min = 2, max = 200)
   @Column(name = "other_student_details")
   private String otherStudentDetails;
+  @Column(name = "student_status")
+  private int studentStatus;
 
   @JsonIgnore
   @ManyToMany(cascade = CascadeType.PERSIST)
   @JoinTable(name = "Student_Parents",
-             joinColumns = @JoinColumn(name = "student_id", referencedColumnName = "studentId"),
-             inverseJoinColumns = @JoinColumn(name = "parent_id",
-                                              referencedColumnName = "parentId"))
+      joinColumns = @JoinColumn(name = "student_id", referencedColumnName = "studentId"),
+      inverseJoinColumns = @JoinColumn(name = "parent_id", referencedColumnName = "parentId"))
   private Set<Parent> parents;
 
   /**
