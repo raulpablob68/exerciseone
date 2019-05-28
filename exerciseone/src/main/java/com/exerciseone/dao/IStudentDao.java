@@ -2,6 +2,9 @@ package com.exerciseone.dao;
 
 import com.exerciseone.entity.Student;
 
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
 /**
@@ -13,5 +16,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  */
 public interface IStudentDao extends CrudRepository<Student, Integer> {
-
+  //@Query(value = "")
+  List<Student> getAllStudentsByStudentId(List<Integer> listStudentId);
 }

@@ -21,11 +21,12 @@ public class SubjectServiceImpl implements ISubjectService {
 
 	@Override
 	public List<Subject> getAll() {
-		return subjectDao.findAllSubjectByStatus();
+		return (List<Subject>) subjectDao.findAllSubjectsBySubjectStatus();
 	}
 
 	@Override
 	public Subject post(Subject subject) {
+		subject.setSubjectStatus(1);
 		subjectDao.save(subject);
 		return subject;
 	}
@@ -36,13 +37,12 @@ public class SubjectServiceImpl implements ISubjectService {
 			subject.setSubjectId(subjectId);
 			subjectDao.save(subject);
 		});
-		return null;
+		return subject;
 	}
 
 	@Override
 	public void softDelete(int subjectId) {
-		// TODO Auto-generated method stub
-
+		subjectDao.softDelete(subjectId);
 	}
 
 }

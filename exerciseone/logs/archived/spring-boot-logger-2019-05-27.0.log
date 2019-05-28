@@ -1,0 +1,37 @@
+2019-05-27 18:55:31,085 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 7764 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-27 18:55:31,140 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 18:55:31,142 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-27 18:55:38,002 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-27 18:55:50,458 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 21.942 seconds (JVM running for 29.561)
+2019-05-27 19:23:48,540 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 816 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-27 19:23:48,556 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:23:48,557 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-27 19:23:52,495 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-27 19:24:40,196 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 424 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-27 19:24:40,201 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:24:40,202 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-27 19:24:43,235 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-27 19:24:48,082 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 8.436 seconds (JVM running for 10.107)
+2019-05-27 19:36:41,383 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 424 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-27 19:36:41,384 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:36:41,384 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-27 19:36:42,791 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-27 19:37:54,579 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 16444 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-27 19:37:54,625 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:37:54,626 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-27 19:37:58,450 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-27 19:38:04,762 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 11.195 seconds (JVM running for 15.471)
+2019-05-27 19:51:19,427 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 16444 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-27 19:51:19,427 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:51:19,428 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-27 19:51:20,828 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-27 19:53:09,531 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 11460 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-27 19:53:09,550 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:53:09,551 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-27 19:53:15,001 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-27 19:53:21,721 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 13.379 seconds (JVM running for 21.322)
+2019-05-27 20:26:40,615 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExerciseoneApplication on LIM-5CD5447TZF with PID 16016 (C:\Users\rbarrief\git\repositoryexercise\exerciseone\target\classes started by rbarrief in C:\Users\rbarrief\git\repositoryexercise\exerciseone)
+2019-05-27 20:26:40,622 |  | DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 20:26:40,624 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-27 20:26:44,717 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
+2019-05-27 20:26:51,105 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 11.777 seconds (JVM running for 16.139)

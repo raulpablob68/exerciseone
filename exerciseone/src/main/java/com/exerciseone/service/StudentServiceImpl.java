@@ -43,4 +43,10 @@ public class StudentServiceImpl implements IStudentService {
     studentDao.deleteById(studentId);
   }
 
+  @Override
+  public List<Student> getAllById(List<Integer> listStudentId) {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
 }
