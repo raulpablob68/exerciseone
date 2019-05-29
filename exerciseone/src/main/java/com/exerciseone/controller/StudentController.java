@@ -41,10 +41,11 @@ public class StudentController {
   public ResponseEntity<List<Student>> getAllStudents() {
     return new ResponseEntity<List<Student>>(studentService.getAll(), HttpStatus.OK);
   }
-  
+
   @GetMapping("/api/1.0/students/ids")
   public ResponseEntity<List<Student>> getAllById(@RequestBody List<Integer> listStudentId) {
-    return new ResponseEntity<List<Student>>(studentService.getAllById(listStudentId), HttpStatus.OK);
+    return new ResponseEntity<List<Student>>(studentService.getAllById(listStudentId),
+        HttpStatus.OK);
   }
 
   /**
@@ -84,11 +85,11 @@ public class StudentController {
   }
 
   /**
-   * Método orientado a actualizar un objeto de la clase Student. Retorna un objeto
-   * de tipo ResponseEntity que contiene un objeto de clase Student y muestra un
-   * HttpStatus.
+   * Método orientado a actualizar un objeto de la clase Student. Retorna un
+   * objeto de tipo ResponseEntity que contiene un objeto de clase Student y
+   * muestra un HttpStatus.
    * 
-   * @param student De tipo Student.
+   * @param student   De tipo Student.
    * @param studentId Un objeto del tipo int, relativo a la clase Student
    * 
    * @see com.exerciseone.entity.Student
@@ -107,7 +108,7 @@ public class StudentController {
    * studentId.
    * 
    * @param studentId De tipo Integer, relativo al atributo identificador de la
-   *                 clase Student.
+   *                  clase Student.
    */
   @DeleteMapping(value = "/api/1.0/students/{studentId}")
   public void delete(@PathVariable Integer studentId) {
