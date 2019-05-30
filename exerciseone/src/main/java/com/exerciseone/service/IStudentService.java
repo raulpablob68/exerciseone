@@ -71,4 +71,6 @@ public interface IStudentService {
   public void delete(int studentId);
   
   public List<Student> getAllById(List<Integer> listStudentId);
+  
+  public List<Student> getAllByClassId(int classId);
 }

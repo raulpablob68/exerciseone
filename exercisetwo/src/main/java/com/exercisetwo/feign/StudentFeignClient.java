@@ -12,13 +12,9 @@ import com.exercisetwo.entity.Student;
 @FeignClient("service-b")
 public interface StudentFeignClient {
 	
-//	List<Integer> listAuxIds = new ArrayList<Integer>();
-//	listAuxIds.add(1);
-	
 	@RequestMapping("/api/1.0/students/")
 	List<Student> getListStudent();
 	
 	@RequestMapping("/api/1.0/students/ids")
 	List<Student> getListStudentsByListStudentId(List<Integer> listStudentIds);
-//	List<Student> getListStudentsByListStudentId(JSONArray jarray);
 }

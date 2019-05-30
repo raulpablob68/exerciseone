@@ -33,8 +33,8 @@ public class ParentControllerTest {
   /**
    * Instancia de Parent para realizar estas pruebas unitarias.
    */
-  Parent parentMock = new Parent(6, "M", "José", "José", "Jirones", "Otros");
-  List<Parent> listParentMock = new ArrayList<Parent>();
+  Parent parentMock = new Parent(6, "M", "José", "José", "Jirones", "Otros",1); // getOne
+  List<Parent> listParentMock = new ArrayList<Parent>(); //getAll
 
   /**
    * Valida que el resultado de obtener una colección de objetos de tipo Parent ES
@@ -44,8 +44,9 @@ public class ParentControllerTest {
    */
   @Test
   public void testGetAllTrue() throws Exception {
-    listParentMock.add(new Parent(6, "M", "José", "José", "Jirones", "Otros"));
-    listParentMock.add(new Parent(7, "F", "Roxana", "Juana", "Reyes", "Otros"));
+    listParentMock.add(new Parent(6, "M", "José", "José", "Jirones", "Otros",1));
+    listParentMock.add(new Parent(7, "F", "Roxana", "Juana", "Reyes", "Otros",1));
+    
     Mockito.when(parentServiceImpl.getAll()).thenReturn(listParentMock);
 
     RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/1.0/parents/")
@@ -55,9 +56,9 @@ public class ParentControllerTest {
 
     System.out.println(result.getResponse());
     String expected = "[{parentId:6,gender:M,firstName:José,middleName:José,"
-        + "lastName:Jirones,otherParentDetails:Otros},"
+        + "lastName:Jirones,otherParentDetails:Otros,parentStatus:1},"
         + "{parentId:7,gender:F,firstName:Roxana,middleName:Juana,"
-        + "lastName:Reyes,otherParentDetails:Otros}]";
+        + "lastName:Reyes,otherParentDetails:Otros,parentStatus:1}]";
 
     JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), true);
   }
@@ -78,7 +79,7 @@ public class ParentControllerTest {
 
     System.out.println(result.getResponse());
     String expected = "{parentId:6,gender:M,firstName:José,middleName:José,"
-        + "lastName:Jirones,otherParentDetails:Otros}";
+        + "lastName:Jirones,otherParentDetails:Otros,parentStatus:1}";
 
     JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), true);
   }

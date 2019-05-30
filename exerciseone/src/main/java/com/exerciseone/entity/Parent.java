@@ -87,13 +87,14 @@ public class Parent {
       @NotBlank(message = "First name cannot be empty") @Size(min = 2, max = 200) String firstName,
       @Size(min = 2, max = 200) String middleName,
       @NotBlank(message = "Last name cannot be empty") @Size(min = 2, max = 200) String lastName,
-      @Size(min = 2, max = 200) String otherParentDetails) {
+      @Size(min = 2, max = 200) String otherParentDetails,int parentStatus) {
     this.parentId = parentId;
     this.gender = gender;
     this.firstName = firstName;
     this.middleName = middleName;
     this.lastName = lastName;
     this.otherParentDetails = otherParentDetails;
+    this.parentStatus = parentStatus;
   }
 
 }

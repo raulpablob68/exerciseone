@@ -1,6 +1,7 @@
 package com.exercisetwo.entity;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Set;
 
 import javax.persistence.Column;
@@ -16,6 +17,9 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 import org.springframework.format.annotation.NumberFormat;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -56,8 +60,12 @@ public class Class {
 	@NumberFormat
 	private int classStatus;
 
+	@JsonBackReference
+//	@JsonIgnore
 	@OneToMany(mappedBy = "classe")
 	Set<StudentClass> studentClass;
+	
+//	private List<DTOStudent> listDtoStudents;
 	
 //	@JsonIgnore
 //	@ManyToMany(mappedBy = "classes", cascade = CascadeType.PERSIST)
