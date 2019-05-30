@@ -40,6 +40,7 @@ public class StudentClientController {
 		return new ResponseEntity<List<Student>>(
 				studentFeignClientService.getListStudentsByListStudentId(listStudentIds), HttpStatus.OK);
 	}
+	
 
 	public List<Student> defaultgetAllStudents() throws InterruptedException {
 		return getAllFeignStudents();

@@ -48,7 +48,7 @@ public class StudentController {
         HttpStatus.OK);
   }
 
-  @PostMapping("/api/1.0/students/{classid}/classid")
+  @GetMapping("/api/1.0/students/{classid}/classid")
   public ResponseEntity<List<Student>> getAllByClassId(@PathVariable int classid) {
     return new ResponseEntity<List<Student>>(studentService.getAllByClassId(classid),
         HttpStatus.OK);

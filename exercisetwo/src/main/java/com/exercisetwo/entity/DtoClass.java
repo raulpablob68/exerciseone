@@ -3,6 +3,8 @@ package com.exercisetwo.entity;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,6 +14,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Component
 public class DtoClass {
 	private int classId;
 	private Subject subject;
@@ -21,5 +24,5 @@ public class DtoClass {
 	private Date dateFrom;
 	private Date dateTo;
 	private int classStatus;
-	private List<DtoStudent> listDtoStudents;
+	private List<Student> listDtoStudents;
 }
