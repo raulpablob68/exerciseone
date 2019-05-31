@@ -58,4 +58,19 @@ public class Teacher {
 	@JsonIgnore
 	@OneToMany(mappedBy = "teacher")
 	private List<Class> classList;
+	public Teacher(int teacherId, int schoolId, String gender,
+			@NotBlank(message = "First name cannot be empty") @Size(min = 2, max = 200) String firstName,
+			@Size(min = 2, max = 200) String middleName,
+			@NotBlank(message = "Last name cannot be empty") @Size(min = 2, max = 200) String lastName,
+			@Size(min = 2, max = 200) String otherTeacherDetails, int teacherStatus) {
+		this.teacherId = teacherId;
+		this.schoolId = schoolId;
+		this.gender = gender;
+		this.firstName = firstName;
+		this.middleName = middleName;
+		this.lastName = lastName;
+		this.otherTeacherDetails = otherTeacherDetails;
+		this.teacherStatus = teacherStatus;
+	}
+
 }

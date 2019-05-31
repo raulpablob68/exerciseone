@@ -1,129 +1,20 @@
-2019-05-30 08:31:53,950 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-05-30 08:32:03,623 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 08:32:17,728 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 29.199 seconds (JVM running for 31.351)
-2019-05-30 08:33:54,818 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 08:33:54,820 | 2A6307930B834C26835968704EEA2E39 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 08:51:24,490 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-4] requestHeader sí está vacío.
-2019-05-30 08:51:24,490 | 71E5AF07FA7C4D1B94888053B217BE77 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-4] responseHeader no está vacío.
-2019-05-30 08:51:57,888 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 08:51:57,889 | AB9EFEE39D3449D48724724E782D2602 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 09:07:31,570 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 09:07:37,312 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 11.407 seconds (JVM running for 17.477)
-2019-05-30 09:07:37,495 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 09:07:37,501 | 96AB8EA06C1E49DDB3BB97DA7CF44789 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 09:09:00,244 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 09:09:03,704 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 8.264 seconds (JVM running for 10.451)
-2019-05-30 09:09:03,865 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 09:09:03,866 | F9B794CC0B334C6D918D36CD22A39D0C | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 09:10:03,029 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 09:10:06,541 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 8.11 seconds (JVM running for 10.287)
-2019-05-30 09:10:06,655 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 09:10:06,656 | 7F3B3A523A71472189E317785A8981F6 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 10:09:09,641 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-05-30 10:09:17,746 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 10:09:32,852 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 28.08 seconds (JVM running for 29.948)
-2019-05-30 10:10:34,625 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 10:10:34,626 | B8AAE212B9324D9999AEF047AFAEE5FE | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 10:10:36,068 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-2] requestHeader sí está vacío.
-2019-05-30 10:10:36,069 | EF05362A5B4C421FAD35173A77643E23 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-2] responseHeader no está vacío.
-2019-05-30 10:10:58,658 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 10:10:58,659 | 3A3466D1E78641E285AF7F0C28691BBC | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 10:13:29,519 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-10] requestHeader sí está vacío.
-2019-05-30 10:13:29,519 | 9EE014019FF2496487132CC709522B55 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-10] responseHeader no está vacío.
-2019-05-30 10:14:04,036 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-05-30 10:14:15,315 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 10:14:25,762 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 26.779 seconds (JVM running for 31.372)
-2019-05-30 10:14:32,568 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 10:14:32,570 | 28A227E43C80441EB8AA0F80224EA956 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 10:14:32,902 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-2] requestHeader sí está vacío.
-2019-05-30 10:14:32,904 | B67BB14224AF4F7D825090BA50CC8E18 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-2] responseHeader no está vacío.
-2019-05-30 10:14:36,637 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] requestHeader sí está vacío.
-2019-05-30 10:14:36,638 | 4878B4F6E9F24482A2C914393426995C | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] responseHeader no está vacío.
-2019-05-30 10:14:36,805 | 4878B4F6E9F24482A2C914393426995C | INFO com.exerciseone.exception.CustomResponseEntityExceptionHandler [http-nio-9901-exec-3] handleAllExceptions
-2019-05-30 10:36:46,304 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] requestHeader sí está vacío.
-2019-05-30 10:36:46,305 | 9FA0F2CE56564093804A0D71119473E6 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] responseHeader no está vacío.
-2019-05-30 10:36:46,317 | 9FA0F2CE56564093804A0D71119473E6 | INFO com.exerciseone.exception.CustomResponseEntityExceptionHandler [http-nio-9901-exec-7] handleAllExceptions
-2019-05-30 10:36:46,403 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-8] requestHeader sí está vacío.
-2019-05-30 10:36:46,403 | 3AC3652E10AF415282B24475238058C5 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-8] responseHeader no está vacío.
-2019-05-30 10:36:51,863 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-9] requestHeader sí está vacío.
-2019-05-30 10:36:51,864 | 781D95060F8D42A68FF3760F3C567CD7 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-9] responseHeader no está vacío.
-2019-05-30 10:36:51,870 | 781D95060F8D42A68FF3760F3C567CD7 | INFO com.exerciseone.exception.CustomResponseEntityExceptionHandler [http-nio-9901-exec-9] handleAllExceptions
-2019-05-30 10:36:51,919 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 10:36:51,920 | A01943481F524BBE982A6EA359FC9C89 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 10:39:34,848 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 10:39:34,848 | 8B9EC834998640468484A6FFBC12ACFF | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 10:39:34,854 | 8B9EC834998640468484A6FFBC12ACFF | INFO com.exerciseone.exception.CustomResponseEntityExceptionHandler [http-nio-9901-exec-5] handleAllExceptions
-2019-05-30 10:39:34,940 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-4] requestHeader sí está vacío.
-2019-05-30 10:39:34,941 | 233E29348474408BAA64E1C9CD9C719C | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-4] responseHeader no está vacío.
-2019-05-30 10:40:14,085 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-05-30 10:40:19,920 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 10:40:27,864 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 18.061 seconds (JVM running for 19.797)
-2019-05-30 10:40:36,940 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 10:40:36,942 | 529D71D0D91A4567A15FFE72E6C489CC | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 10:40:37,198 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-2] requestHeader sí está vacío.
-2019-05-30 10:40:37,198 | AE46359E7CBA4C6685B0FC42399ECF11 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-2] responseHeader no está vacío.
-2019-05-30 10:44:12,794 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 10:44:12,795 | F901E65DAEE94DA6B9A6472E2A6A9E12 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 10:46:54,736 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-8] requestHeader sí está vacío.
-2019-05-30 10:46:54,736 | 60D9D3CC8D9D4A428509F4D5AFF7A722 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-8] responseHeader no está vacío.
-2019-05-30 10:46:56,540 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-9] requestHeader sí está vacío.
-2019-05-30 10:46:56,543 | 6C30A3DE33B34B3585E3D0B0F8910152 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-9] responseHeader no está vacío.
-2019-05-30 10:47:00,250 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-10] requestHeader sí está vacío.
-2019-05-30 10:47:00,250 | 8D2F4BB1BC3B43B294E1058A8E05B531 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-10] responseHeader no está vacío.
-2019-05-30 10:47:00,320 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 10:47:00,321 | B71959391B5A442691659ECBBCD8CF21 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 10:47:06,659 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 10:47:06,659 | 36E61ED19B8046D88F2DF7E99685A2AE | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 10:47:06,719 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-6] requestHeader sí está vacío.
-2019-05-30 10:47:06,720 | 2B7562A3A77241BDA26C33AF20AB5714 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-6] responseHeader no está vacío.
-2019-05-30 10:54:38,352 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-9] requestHeader sí está vacío.
-2019-05-30 10:54:38,353 | 37943DC796734BFCBBBD03C9D1BAAF4A | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-9] responseHeader no está vacío.
-2019-05-30 10:54:38,433 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-10] requestHeader sí está vacío.
-2019-05-30 10:54:38,433 | E1616D74AC15457EACC13C5927A5952C | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-10] responseHeader no está vacío.
-2019-05-30 11:25:59,438 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] requestHeader sí está vacío.
-2019-05-30 11:25:59,439 | 4071CC5956D44C999C0011D347C83D5D | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] responseHeader no está vacío.
-2019-05-30 11:25:59,717 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-4] requestHeader sí está vacío.
-2019-05-30 11:25:59,717 | D5C8F70C2EAB42B380D7F004BA51BEA9 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-4] responseHeader no está vacío.
-2019-05-30 11:26:36,014 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] requestHeader sí está vacío.
-2019-05-30 11:26:36,014 | A961082C3A784665927C2B7984632EEB | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] responseHeader no está vacío.
-2019-05-30 11:28:00,643 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-10] requestHeader sí está vacío.
-2019-05-30 11:28:00,643 | BA129701EA1940A9A4C392D1B32F6346 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-10] responseHeader no está vacío.
-2019-05-30 11:28:05,145 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 11:28:05,145 | D7A0ED195F554827AB63B2C1BB690240 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 11:28:17,425 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] requestHeader sí está vacío.
-2019-05-30 11:28:17,425 | 39CE1EF1E3AC4B88BEC1669C9407D3C3 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] responseHeader no está vacío.
-2019-05-30 11:29:20,219 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 11:29:20,219 | 7D9DFAFE4630495483B56290B6D0D57C | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 11:29:20,436 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-6] requestHeader sí está vacío.
-2019-05-30 11:29:20,452 | 6A3D5AC408C04B9D820186446C65B5E5 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-6] responseHeader no está vacío.
-2019-05-30 11:29:50,192 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] requestHeader sí está vacío.
-2019-05-30 11:29:50,193 | BA294436B3BE4EF58DDFCA733286B904 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] responseHeader no está vacío.
-2019-05-30 11:31:32,388 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] requestHeader sí está vacío.
-2019-05-30 11:31:32,388 | 769B245660B246AC9EB6250EE98E60D2 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] responseHeader no está vacío.
-2019-05-30 11:53:31,347 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 11:53:31,347 | 0B8DA83A75EF4B4F898CA528C67C94F0 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 13:46:20,319 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-05-30 13:46:28,692 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 13:46:41,051 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExerciseoneApplication in 25.784 seconds (JVM running for 29.397)
-2019-05-30 14:09:38,009 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 14:09:38,009 | 742AD59247D34869990E5FA15751ACB8 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 14:10:44,429 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] requestHeader sí está vacío.
-2019-05-30 14:10:44,429 | 0C31824653554D7B8C0A7B54503202AD | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] responseHeader no está vacío.
-2019-05-30 14:11:46,780 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 14:11:46,784 | B6F79395FD23467F88F5DA1D3D5ACB54 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 15:39:56,711 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] requestHeader sí está vacío.
-2019-05-30 15:39:56,712 | 3EB5D2202C974044BA38A290F4AEBCA9 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] responseHeader no está vacío.
-2019-05-30 15:42:00,665 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-9] requestHeader sí está vacío.
-2019-05-30 15:42:00,665 | 74C4BB3546A440CFB0A9EE3A4E959C86 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-9] responseHeader no está vacío.
-2019-05-30 16:05:57,646 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] requestHeader sí está vacío.
-2019-05-30 16:05:57,647 | 42AC0645604A4ADC870FA7C0C62F278C | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-1] responseHeader no está vacío.
-2019-05-30 16:05:58,704 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-2] requestHeader sí está vacío.
-2019-05-30 16:05:58,705 | EFC2B7CB80DF4A2CB8CB8D97FC72C347 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-2] responseHeader no está vacío.
-2019-05-30 16:20:52,250 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] requestHeader sí está vacío.
-2019-05-30 16:20:52,250 | 1861C98E730746D09CEABBFD7CD8F38B | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-3] responseHeader no está vacío.
-2019-05-30 16:22:19,336 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] requestHeader sí está vacío.
-2019-05-30 16:22:19,352 | 4BB83F97A11B42A48C9F7DB8E973DBC5 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-5] responseHeader no está vacío.
-2019-05-30 16:22:37,784 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] requestHeader sí está vacío.
-2019-05-30 16:22:37,784 | 39ED729743E44D4FA6527C103F3661E9 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-7] responseHeader no está vacío.
-2019-05-30 16:24:48,720 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-8] requestHeader sí está vacío.
-2019-05-30 16:24:48,720 | C6D73165DFCA48059351E281483A22BC | INFO com.exerciseone.logconfig.Slf4jMdcFilter [http-nio-9901-exec-8] responseHeader no está vacío.
+2019-05-31 08:32:26,303 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 08:32:31,368 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 11.382 seconds (JVM running for 15.073)
+2019-05-31 08:32:31,568 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 08:32:31,569 | 0B4A0CF7C34243F4946AF70A0963D6D5 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 08:32:32,310 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 08:32:32,688 | BC67F31B00FE438287718D6A844EA5DC | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 08:32:32,703 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 08:32:32,704 | D26D5076CD574F4F8F0ED217B6B2D3BC | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 08:32:36,333 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 08:33:10,860 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExerciseoneApplicationTests in 38.098 seconds (JVM running for 54.572)
+2019-05-31 08:38:06,242 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 08:38:25,998 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 33.443 seconds (JVM running for 42.604)
+2019-05-31 08:38:30,542 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 08:38:30,543 | 90016C192E254ED19960FC27F5CD08EC | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 08:38:33,881 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 08:38:33,881 | A50C16C37E864E8E89B06C55DF8AECE6 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 08:38:33,901 |  | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 08:38:33,902 | 9F87F00683664CBE88BCB7B75E7B5899 | INFO com.exerciseone.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 08:38:38,488 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 08:39:36,791 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExerciseoneApplicationTests in 62.713 seconds (JVM running for 113.423)
