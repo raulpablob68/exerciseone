@@ -1,7 +1,6 @@
 package com.exercisetwo.entity;
 
 import java.util.Date;
-import java.util.List;
 import java.util.Set;
 
 import javax.persistence.Column;
@@ -19,7 +18,6 @@ import javax.validation.constraints.Size;
 import org.springframework.format.annotation.NumberFormat;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -36,8 +34,6 @@ public class Class {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int classId;
-//	@Column(name = "class_id")
-//	private int subjectId;
 	@ManyToOne
 	@JoinColumn(name = "subject_id")
 	private Subject subject;
@@ -64,10 +60,17 @@ public class Class {
 //	@JsonIgnore
 	@OneToMany(mappedBy = "classe")
 	Set<StudentClass> studentClass;
+
+	public Class(int classId, Subject subject, Teacher teacher,
+			@NotBlank(message = "Class code cannot be empty") @Size(min = 2, max = 200) String classCode,
+			@NotBlank(message = "Class name cannot be empty") @Size(min = 2, max = 200) String className,
+			int classStatus) {
+		this.classId = classId;
+		this.subject = subject;
+		this.teacher = teacher;
+		this.classCode = classCode;
+		this.className = className;
+		this.classStatus = classStatus;
+	}
 	
-//	private List<DTOStudent> listDtoStudents;
-	
-//	@JsonIgnore
-//	@ManyToMany(mappedBy = "classes", cascade = CascadeType.PERSIST)
-//	private Set<Student> students = new HashSet<>();
 }

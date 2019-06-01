@@ -11,6 +11,8 @@ public class ExercisetwoApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		
+		assert(true);
 	}
 
 }

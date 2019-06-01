@@ -11,7 +11,7 @@
 	<groupId>com.exerciseone</groupId>
 	<artifactId>eurekaserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>eurekaserver</name>
 	<description>Eureka server project for Spring Boot</description>
 

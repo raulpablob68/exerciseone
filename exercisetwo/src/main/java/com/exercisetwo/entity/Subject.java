@@ -42,4 +42,13 @@ public class Subject {
 	@JsonIgnore
 	@OneToMany(mappedBy = "subject")
 	private List<Class> classList;
+
+	public Subject(int subjectId,
+			@NotBlank(message = "Subject name cannot be empty") @Size(min = 2, max = 200) String subjectName,
+			int subjectStatus) {
+		this.subjectId = subjectId;
+		this.subjectName = subjectName;
+		this.subjectStatus = subjectStatus;
+	}
+
 }

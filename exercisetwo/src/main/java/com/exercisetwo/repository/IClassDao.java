@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
 import com.exercisetwo.entity.Class;
-import com.exercisetwo.entity.Subject;
 
 public interface IClassDao extends CrudRepository<Class, Integer>{
 	@Query(value = "SELECT * FROM classes c WHERE c.class_status = 1", nativeQuery = true)

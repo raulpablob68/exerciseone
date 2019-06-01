@@ -28,7 +28,6 @@ public class StudentClientController {
 	}
 
 	@HystrixCommand(defaultFallback = "defaultgetAllStudents")
-//	@HystrixCommand(defaultFallback = "getAllFeignStudents")
 	@GetMapping("api/1.0/feignclient/students")
 	public List<Student> getAllStudents() throws InterruptedException {
 		return studentFeignClientService.getListStudent();

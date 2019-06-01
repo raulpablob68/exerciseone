@@ -1,11 +1,5 @@
 package com.exercisetwo.controller;
 
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.springframework.test.web.client.match.MockRestRequestMatchers.content;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,7 +19,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.exercisetwo.entity.Teacher;
 import com.exercisetwo.services.TeacherServiceImpl;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import lombok.extern.java.Log;
 
@@ -57,7 +50,18 @@ public class TeacherControllerTest {
 		JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), true);
 	}
 	
-	
+	@Test
+	public void testGetAllFalse() throws Exception {
+		listTeacherMock.add(new Teacher(10, 2, "F", "Zoila", "Reyna", "Zegarra", "Teacher", 1));
+		Mockito.when(teacherServiceImpl.getAll()).thenReturn(listTeacherMock);
+		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/2.0/teachers/").accept(MediaType.APPLICATION_JSON);
+		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		log.info(result.getResponse().toString());
+		String expected = "[{teacherId:1,schoolId:1,gender:M,firstName:Jon," + 
+				"middleName:Snow,lastName:Nieve,otherTeacherDetails:Otros," + 
+				"teacherStatus:1}]";
+		JSONAssert.assertNotEquals(expected, result.getResponse().getContentAsString(), true);
+	}
 	
 	@Test
 	public void testGetOneTrue() throws Exception {
@@ -72,7 +76,18 @@ public class TeacherControllerTest {
 		JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), true);
 	}
 	
-	
+	@Test
+	public void testGetOneFalse() throws Exception {
+		Mockito.when(teacherServiceImpl.getOne(Mockito.anyInt())).thenReturn(teacherMock);
+		
+		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/2.0/teachers/1").accept(MediaType.APPLICATION_JSON);
+		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		log.info(result.getResponse().toString());
+		String expected = "{teacherId:2,schoolId:3,gender:F,firstName:Arry," + 
+				"middleName:Needle,lastName:Stark,otherTeacherDetails:Noone," + 
+				"teacherStatus:1}";
+		JSONAssert.assertNotEquals(expected, result.getResponse().getContentAsString(), true);
+	}
 
 //	@Test
 //    public void testAddTeacher() throws Exception {

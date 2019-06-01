@@ -1,471 +1,471 @@
-2019-05-30 08:32:40,749 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 08:32:49,715 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 08:33:00,400 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 24.033 seconds (JVM running for 25.565)
-2019-05-30 08:33:59,384 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 08:33:59,386 | 4483028BB0504E11AE5221CDB5F54236 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 08:35:29,853 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
-2019-05-30 08:35:29,853 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 08:35:29,853 | B47F4BC0EE294DC6A04D7A2F26B4CF40 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
-2019-05-30 08:35:29,853 | 33D951A544DD472B8251912730B87AA1 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 08:44:24,432 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 08:44:24,432 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 08:44:24,433 | C4B7F229AE304671959AEB6A3E671B66 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 08:44:24,433 | 51EFD97E70A144C3B9FF28461C8F4668 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 08:51:13,332 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 08:51:13,333 | BEFC9163212B42DC827B15B2B92ED9C6 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 08:52:21,282 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 08:52:21,282 | 26ACB526773847D089BB057946F05E42 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 08:53:29,867 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 08:53:29,868 | 18DB2AECF85F46B8B1C192BBFD15F23A | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 08:53:29,944 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 08:53:29,945 | A243F7E29C444389BCC46B55ECF82922 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 09:30:46,330 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 09:30:52,036 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 09:31:02,372 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 20.934 seconds (JVM running for 24.479)
-2019-05-30 09:32:14,381 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 09:32:14,381 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
-2019-05-30 09:32:14,383 | F02E5E88746146EB804C62455BB9FB32 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
-2019-05-30 09:32:14,383 | DC7B05D303D2411189F7A7D40C1D3CFA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 09:32:52,742 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:32:52,743 | 6C304811F2C0465EAB9269A17A4B6BA4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:32:56,757 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:32:56,758 | F58930D87F414A21A116630A61C58833 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:32:56,850 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 09:32:56,851 | 915C3E12B0C840E0998242B6B32A8797 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 09:33:13,959 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:33:13,960 | 0161C9B926BC42FAA633718E74E01FBC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:33:15,181 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:33:15,183 | 6B5BF1655CB94EF4AE1DB94A4F7382C8 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:33:49,957 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 09:33:49,958 | B236192EAAD148D382C5547F67F1AE1B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 09:33:50,008 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:33:50,009 | FB1C1D4E17794223893F352DD96D1FAC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:33:50,102 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:33:50,103 | CAE980B788CF4264B7E560915C36E5A8 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:33:50,178 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 09:33:50,178 | 51E55FA9812E4C528C204FA476BA837C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 09:33:50,243 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 09:33:50,244 | D348304BCC7F4C56AE21FDCD02006064 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 09:33:50,308 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:33:50,310 | 8A9B285A55DC4746ADF5D86D9E949B52 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:33:50,421 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:33:50,421 | E4958A69B3EE4009A1993A540E8717E4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:33:50,519 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 09:33:50,519 | A853CF24195A410599FC08D5C0EB11FC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 09:33:55,138 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 09:33:55,139 | E729150107BB45D9972BC1CC2A4A27EB | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 09:33:55,230 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:33:55,230 | B160E9058538497A96690E48299E45E4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:33:55,291 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:33:55,291 | EE747B2488C54C3583FD6A5DC2959C7E | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:33:55,344 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 09:33:55,345 | 19A24795EB884DB5B644A50E6632ACBF | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 09:33:55,428 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 09:33:55,429 | 910BA36E05AD4524912B11A8D99BA0D2 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 09:33:55,500 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:33:55,500 | 3BA61222F7CB4D0BA152FAC700B02460 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:33:55,596 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:33:55,597 | A994E9FA02BA4F0EBBC9DDE618B03F1C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:33:55,671 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 09:33:55,672 | 2E2728B3E2CE4EE786EE54EDE33D1CCB | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 09:33:55,738 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 09:33:55,738 | FFA76D32192A4B69A74361E345163D43 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 09:33:55,821 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:33:55,821 | 1C41D01670C248E5B3208C5448EC42EF | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:33:55,883 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:33:55,883 | 17A159DF3C24448FBAACE2A06CC44ECE | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:33:55,940 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 09:33:55,941 | 8DC7ACF673E7442E800EDA90B7E3D1E4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 09:33:56,036 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 09:33:56,036 | 6E793EF56015436893C2C77ED6F176E0 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 09:33:56,091 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:33:56,091 | 0FC066DDB6ED4FA39FD30F3225F5826B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:33:56,195 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:33:56,196 | 2AF681DEFDAF4FFBA792635B1D8FCDF3 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:33:56,248 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 09:33:56,248 | B2D3EC08C6D746CE8B2471F929E4249F | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 09:34:16,053 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:34:16,054 | FBA04FB3271A4105BD3832D393878D51 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:34:16,118 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:34:16,119 | F962E6B27D80457EB1AA248F897396A9 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:34:16,338 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 09:34:16,339 | 30A91865931E4576A1B2AD50CD5AF8D2 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 09:34:16,394 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 09:34:16,395 | B968A4D32389402CA59DB31F4DF61184 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 09:34:16,722 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:34:16,723 | 563FF22D4EC0493FBB988E61450E5C85 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:34:16,776 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:34:16,777 | 780B7FCD4068439FA41A340305A9B7F2 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:34:17,043 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 09:34:17,043 | 724DE7E607F148DA8F71E387E1025595 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 09:34:17,094 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 09:34:17,095 | FD0828CF598C4E33B2DC33CD6D3E20E5 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 09:34:17,371 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:34:17,371 | 11C75102CC824ECD8FEC65CCE3881B38 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:34:17,421 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:34:17,422 | D79CBB30C16443CD94B3E661FFB3A5E0 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:34:17,722 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 09:34:17,723 | A3C0F8C9C1C8440E816261D5C8B6EB1D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 09:34:17,771 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 09:34:17,771 | C1C52B87E2E2455B9818A19EA153B65D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 09:34:18,079 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:34:18,079 | 6B578813F62042A0A977FFDF9AC96BEF | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:34:18,152 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:34:18,152 | 7241ED1D5B644143812D60B7184886C5 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:34:18,427 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 09:34:18,427 | 2A041A6B086748F8AB45F89EDA9B8C73 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 09:34:18,484 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 09:34:18,485 | 1389513C4536459FB7A07B564179D08A | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 09:34:18,770 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:34:18,770 | 025EFEDF87C140D2992162A295C6780B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:34:18,825 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:34:18,826 | E76B937561174575896E529DAEE8C617 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:34:19,067 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 09:34:19,067 | D0DD7F92E44345028BC3EC59388100F7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 09:34:19,124 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 09:34:19,125 | 8B6ECB96B41941A1A5936151F74CD980 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 09:34:19,384 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:34:19,385 | C47722B762B442FDA97331512DE9C367 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:34:19,457 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:34:19,458 | 8C80CF85C0AC4EF29B5F7FE08A98B30F | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:34:19,659 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 09:34:19,659 | 062DA88EDCC34A31B77803CCFEC9C401 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 09:34:19,728 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 09:34:19,729 | 8B3E7B3ABFED47949CA84783AB34DA34 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 09:34:19,939 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:34:19,939 | 24E3D3257F3248B7BB3CCAD24D8219FF | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:34:19,994 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:34:19,994 | A2FAAFBCA94E4446A948DD5D11838B3F | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:34:20,211 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 09:34:20,211 | D555271D78C94B468CE472EF66A658F2 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 09:34:20,260 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 09:34:20,261 | 138082749BFC4A9C9C5F4FD6FCDB4E74 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 09:34:20,522 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:34:20,522 | 2A610614BA55483FBC895AA2687A040C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:34:20,575 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:34:20,576 | B892DE404E0D4E5EB9BD06F5F7B2546C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:37:16,060 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:37:16,061 | FB12A8C55B6949FA95C823593E7B6B82 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 09:37:16,208 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 09:37:16,208 | 1436745165F04F199104E06C3B77C9D5 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 09:40:19,615 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 09:40:19,615 | 05B0A41ADD6C42DD8B82C74B48B525DC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 09:40:19,684 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 09:40:19,686 | 394928CABC0A47BBB3D6F2C235B06653 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 09:40:23,208 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 09:40:23,209 | 5AD26F1C670D4A77944ABC0F3F8F38BF | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 09:40:38,013 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 09:40:38,014 | 871968A13CFF41E18B0C0E52A354F11B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 10:09:45,499 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 10:09:52,379 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 10:10:05,612 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 24.536 seconds (JVM running for 26.09)
-2019-05-30 10:46:53,106 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 10:46:53,108 | E7D6D84D01A44A7DA48AD0EA9F558A35 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 11:29:50,170 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 11:29:50,182 | A70F33B77E5C4A7894281974A1BBA0F0 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 11:53:31,260 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 11:53:31,260 | F9F2CB9D1FE441C887F95BE0C7FD9957 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 11:53:37,896 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 11:53:37,896 | 5A22BE505F924132B4B3B58513F6E187 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 11:53:48,910 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 11:53:48,910 | B63FE37B5E4D434C91F058FD7FB6A442 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 11:53:48,923 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 11:53:48,923 | AAF5E477CE43461E9183FD43B8F201D9 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 11:54:21,068 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 11:54:21,068 | 09DE1D9D1FBD4B87A082D47DC9A719EE | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 11:54:21,070 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 11:54:21,070 | 32080A9339804F9E8E9EF5E6D9CF2DC2 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 12:01:49,616 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 12:01:49,616 | DC5B697446EA4B8CA3A157D713FC8327 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 12:02:02,127 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 12:02:02,127 | 8AFE4006D92740D9B3CF9CC7529E4453 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 13:46:54,077 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 13:47:01,322 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 13:47:13,388 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 23.995 seconds (JVM running for 25.696)
-2019-05-30 13:47:52,399 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 13:47:52,399 | 2F625F2D9CB4432F986102C9797598AA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 14:09:36,714 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 14:09:36,714 | 29715A54E22F4C2283CE238B686B7531 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 14:10:44,398 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 14:10:44,398 | 0A410BB02A0F464091134E7ADD896276 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 14:11:46,766 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
-2019-05-30 14:11:46,766 | F8C60D93F5F549278E9F0A5F924A000D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
-2019-05-30 14:35:26,549 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 14:35:32,289 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 14:39:59,202 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 14:40:04,152 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 14:41:00,350 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 14:41:05,235 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 14:42:07,263 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 14:42:12,076 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 14:43:03,801 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 14:43:09,668 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 14:43:20,712 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 21.16 seconds (JVM running for 22.45)
-2019-05-30 14:44:12,777 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 14:44:12,777 | EBB4724311F34F87B04DAF594E2E6BAD | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 14:44:13,000 | EBB4724311F34F87B04DAF594E2E6BAD | INFO com.exercisetwo.exception.CustomResponseEntityExceptionHandler [http-nio-9902-exec-1] handleAllExceptions
-2019-05-30 14:47:21,370 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 14:47:28,434 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 14:47:40,422 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 23.819 seconds (JVM running for 27.755)
-2019-05-30 14:51:13,881 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 14:51:19,214 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 14:51:26,857 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 17.483 seconds (JVM running for 18.877)
-2019-05-30 14:51:33,293 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 14:51:33,293 | F799D0E493EC4EB499B2FAEBD9C3A4C7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 14:51:33,433 | F799D0E493EC4EB499B2FAEBD9C3A4C7 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [1, 2]
-2019-05-30 14:51:33,441 | F799D0E493EC4EB499B2FAEBD9C3A4C7 | INFO com.exercisetwo.exception.CustomResponseEntityExceptionHandler [http-nio-9902-exec-1] handleAllExceptions
-2019-05-30 14:51:33,629 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 14:51:33,629 | 5F275471A27442219F220D7298819EB0 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 15:02:17,665 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 15:02:22,611 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 15:02:29,951 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 16.569 seconds (JVM running for 18.181)
-2019-05-30 15:02:39,396 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 15:02:39,400 | DFFA0B5AF99441789D4993BD71DE29B3 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 15:02:39,498 | DFFA0B5AF99441789D4993BD71DE29B3 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: [1, 2]
-2019-05-30 15:02:39,501 | DFFA0B5AF99441789D4993BD71DE29B3 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: []
-2019-05-30 15:02:39,745 | DFFA0B5AF99441789D4993BD71DE29B3 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] classe no es null
-2019-05-30 15:17:19,153 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 15:17:23,879 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 15:19:13,151 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 15:19:18,054 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 15:19:25,419 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 16.55 seconds (JVM running for 17.832)
-2019-05-30 15:19:30,801 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 15:19:30,802 | D93A7DBE82B84DB48FBB29823F072EB8 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 15:19:31,161 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 15:19:31,162 | 94665E66593D496B8D880226AA915D0B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 15:19:57,361 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 15:19:57,362 | 8DC36FF148104ED4983BC071D6B98E13 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 15:19:57,488 | 8DC36FF148104ED4983BC071D6B98E13 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] listStudentIds: [1, 2]
-2019-05-30 15:19:57,495 | 8DC36FF148104ED4983BC071D6B98E13 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] listStudentIds: []
-2019-05-30 15:19:57,576 | 8DC36FF148104ED4983BC071D6B98E13 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] classe no es null
-2019-05-30 15:26:58,256 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 15:27:04,553 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 15:27:16,296 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 22.768 seconds (JVM running for 27.149)
-2019-05-30 15:28:16,014 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 15:28:16,015 | F6B5ADBEDD484F8C9982C9DA1F005B36 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 15:31:31,477 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 15:31:36,839 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 15:31:44,431 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 17.312 seconds (JVM running for 18.701)
-2019-05-30 15:31:52,927 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 15:31:52,928 | D39C816D85C64C74BF90F42B0E91314C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 15:31:53,073 | D39C816D85C64C74BF90F42B0E91314C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [1, 2]
-2019-05-30 15:31:53,075 | D39C816D85C64C74BF90F42B0E91314C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: []
-2019-05-30 15:31:53,149 | D39C816D85C64C74BF90F42B0E91314C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] classe no es null
-2019-05-30 15:32:01,020 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 15:32:01,021 | FE603F102E504A09B3531BBF62713E57 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 15:32:37,912 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 15:32:37,914 | EF7E77B155F844E192FCF05A09B53374 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 15:32:37,930 | EF7E77B155F844E192FCF05A09B53374 | INFO com.exercisetwo.exception.CustomResponseEntityExceptionHandler [http-nio-9902-exec-6] handleAllExceptions
-2019-05-30 15:37:13,760 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 15:37:18,784 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 15:37:26,200 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 16.741 seconds (JVM running for 18.062)
-2019-05-30 15:37:42,019 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 15:37:42,021 | 38E492DE887143718F0AD6E44176B621 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 15:37:42,137 | 38E492DE887143718F0AD6E44176B621 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [1, 2]
-2019-05-30 15:37:42,140 | 38E492DE887143718F0AD6E44176B621 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: []
-2019-05-30 15:37:42,204 | 38E492DE887143718F0AD6E44176B621 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] classe no es null
-2019-05-30 15:37:42,353 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 15:37:42,353 | B190DB06D4AD4D54AE2671751DD6A7B6 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 15:39:54,072 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 15:39:54,073 | E5034AF3BAED413695B0EE67732D9341 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 15:41:37,250 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 15:41:37,251 | 03190A11E9CF4530AB5CBE8FCE18D8F9 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 15:41:46,707 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 15:41:46,708 | 40E4FF876B87470E80B097655D5C40C9 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 15:42:00,633 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 15:42:00,634 | 8B7F01285342429689A62C9FC71CF074 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 15:42:18,286 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 15:42:18,286 | D06876C446734308840470EADEDC0D27 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 15:42:18,291 | D06876C446734308840470EADEDC0D27 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] listStudentIds: [1, 2]
-2019-05-30 15:42:18,293 | D06876C446734308840470EADEDC0D27 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] listStudentIds: []
-2019-05-30 15:42:18,298 | D06876C446734308840470EADEDC0D27 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] classe no es null
-2019-05-30 15:42:18,380 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 15:42:18,380 | F45EA4EC5751410BA0E2595C78E4DDD7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 15:59:16,386 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 15:59:23,320 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 15:59:34,917 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 24.123 seconds (JVM running for 29.229)
-2019-05-30 15:59:40,096 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 15:59:40,098 | 2E92A05F2C0F44A994E662BBD03EA8BD | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 15:59:40,984 | 2E92A05F2C0F44A994E662BBD03EA8BD | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [1, 2]
-2019-05-30 15:59:40,989 | 2E92A05F2C0F44A994E662BBD03EA8BD | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: []
-2019-05-30 15:59:41,262 | 2E92A05F2C0F44A994E662BBD03EA8BD | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] classe no es null
-2019-05-30 16:05:32,808 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 16:05:39,374 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 16:05:50,100 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 22.153 seconds (JVM running for 26.877)
-2019-05-30 16:05:56,544 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 16:05:56,546 | 6451AFE80BED43DBB7743D9B40E7B7FB | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 16:05:56,750 | 6451AFE80BED43DBB7743D9B40E7B7FB | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: [1, 2]
-2019-05-30 16:05:59,644 | 6451AFE80BED43DBB7743D9B40E7B7FB | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: []
-2019-05-30 16:05:59,812 | 6451AFE80BED43DBB7743D9B40E7B7FB | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] classe no es null
-2019-05-30 16:06:00,140 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
-2019-05-30 16:06:00,141 | EA87A490C9264A9FB0AAA0919FE6FC4A | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
-2019-05-30 16:19:59,224 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 16:19:59,224 | 70DBFDE3CA5E4442974063AF8B46FDD6 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 16:20:19,271 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 16:20:19,271 | CE345244005743BC8077BD6AEC41C0AC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 16:20:26,157 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 16:20:26,157 | E82F99EA68F94308B20E21834BD2CF97 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 16:20:52,169 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 16:20:52,169 | 8BFB2729FDBE4F23B2EBF0CF9E3E81F3 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 16:21:56,502 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 16:22:01,417 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
-2019-05-30 16:22:08,742 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 16.481 seconds (JVM running for 17.847)
-2019-05-30 16:22:18,942 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 16:22:18,942 | 8489C6BECDED444B8EFE1E627DE05DCD | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 16:22:37,411 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 16:22:37,411 | 051901666A54430383B811D4B64141BB | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 16:22:37,544 | 051901666A54430383B811D4B64141BB | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] listStudentIds: [1, 2]
-2019-05-30 16:22:37,849 | 051901666A54430383B811D4B64141BB | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] listStudentIds: [com.exercisetwo.entity.Student@1bcf5b1b, com.exercisetwo.entity.Student@65a3990b]
-2019-05-30 16:22:37,929 | 051901666A54430383B811D4B64141BB | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] classe no es null
-2019-05-30 16:24:48,643 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 16:24:48,643 | 83B02427A17140ECBFE4E36ADB89D734 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 16:24:48,648 | 83B02427A17140ECBFE4E36ADB89D734 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] listStudentIds: [3, 4, 5, 6]
-2019-05-30 16:24:48,763 | 83B02427A17140ECBFE4E36ADB89D734 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] listStudentIds: [com.exercisetwo.entity.Student@3373968f, com.exercisetwo.entity.Student@1af591f7, com.exercisetwo.entity.Student@1de7102e, com.exercisetwo.entity.Student@71f80f9]
-2019-05-30 16:24:48,767 | 83B02427A17140ECBFE4E36ADB89D734 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] classe no es null
-2019-05-30 16:57:39,570 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 16:57:39,570 | E424500E8B034F36A8E122A94F7A7123 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 16:58:39,671 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 16:58:39,672 | 78F40950F9044DFDA3F7E5D1DD35F410 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 16:58:39,760 | 78F40950F9044DFDA3F7E5D1DD35F410 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [1, 2]
-2019-05-30 16:58:40,199 | 78F40950F9044DFDA3F7E5D1DD35F410 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [com.exercisetwo.entity.Student@19a990f4, com.exercisetwo.entity.Student@c9f31cc]
-2019-05-30 16:58:40,408 | 78F40950F9044DFDA3F7E5D1DD35F410 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] classe no es null
-2019-05-30 17:29:14,996 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
-2019-05-30 17:29:14,997 | 53376E606931427A84C272D4F7C01D22 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
-2019-05-30 17:29:15,019 | 53376E606931427A84C272D4F7C01D22 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] listStudentIds: [1, 2]
-2019-05-30 17:29:16,141 | 53376E606931427A84C272D4F7C01D22 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] listStudentIds: [com.exercisetwo.entity.Student@19a990f4, com.exercisetwo.entity.Student@c9f31cc]
-2019-05-30 17:29:16,398 | 53376E606931427A84C272D4F7C01D22 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] classe no es null
-2019-05-30 17:29:16,644 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 17:29:16,646 | 7D1EAA48D378448DAD917EF521514B27 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 17:29:16,651 | 7D1EAA48D378448DAD917EF521514B27 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-6] listStudentIds: [1, 2]
-2019-05-30 17:29:17,659 | 7D1EAA48D378448DAD917EF521514B27 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-6] listStudentIds: [com.exercisetwo.entity.Student@19a990f4, com.exercisetwo.entity.Student@c9f31cc]
-2019-05-30 17:29:17,665 | 7D1EAA48D378448DAD917EF521514B27 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-6] classe no es null
-2019-05-30 17:47:50,988 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 17:47:50,989 | 5F8AEE30A47C41A7BD42B33CD8635376 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 17:47:50,995 | 5F8AEE30A47C41A7BD42B33CD8635376 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-10] listStudentIds: [1, 2]
-2019-05-30 17:47:51,117 | 5F8AEE30A47C41A7BD42B33CD8635376 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-10] listStudentIds: [com.exercisetwo.entity.Student@39b6e57c, com.exercisetwo.entity.Student@7037cdb0]
-2019-05-30 17:47:51,211 | 5F8AEE30A47C41A7BD42B33CD8635376 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-10] classe no es null
-2019-05-30 18:21:09,792 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 18:21:09,792 | 7D5CB148A21241A794FE0B33C1414CBA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 18:21:09,810 | 7D5CB148A21241A794FE0B33C1414CBA | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] listStudentIds: [3, 4, 5, 6]
-2019-05-30 18:21:10,894 | 7D5CB148A21241A794FE0B33C1414CBA | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] listStudentIds: [com.exercisetwo.entity.Student@63fcdd88, com.exercisetwo.entity.Student@7d6eac3, com.exercisetwo.entity.Student@e719f50, com.exercisetwo.entity.Student@3ebfa93]
-2019-05-30 18:21:10,913 | 7D5CB148A21241A794FE0B33C1414CBA | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-4] classe no es null
-2019-05-30 18:22:54,617 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
-2019-05-30 18:22:54,617 | 005F5D94E1784514B6BEEF32761E4018 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
-2019-05-30 18:23:41,243 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 18:23:41,243 | 0233EB8EECCE47FBA00C830D48D2EBBF | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 18:23:41,273 | 0233EB8EECCE47FBA00C830D48D2EBBF | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-6] listStudentIds: [1, 2]
-2019-05-30 18:23:41,318 | 0233EB8EECCE47FBA00C830D48D2EBBF | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-6] listStudentIds: [com.exercisetwo.entity.Student@51a3813d, com.exercisetwo.entity.Student@46ee43b5]
-2019-05-30 18:23:41,328 | 0233EB8EECCE47FBA00C830D48D2EBBF | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-6] classe no es null
-2019-05-30 18:24:41,619 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 18:24:41,620 | B210095C563340D68728E2DE43907B6C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 18:24:41,636 | B210095C563340D68728E2DE43907B6C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] listStudentIds: [1, 2]
-2019-05-30 18:24:41,644 | B210095C563340D68728E2DE43907B6C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] listStudentIds: [com.exercisetwo.entity.Student@79164176, com.exercisetwo.entity.Student@1db7319]
-2019-05-30 18:24:41,664 | B210095C563340D68728E2DE43907B6C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] classe no es null
-2019-05-30 18:24:57,453 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 18:24:57,454 | 65F120791A2D4E4C874F707FE592861A | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 18:24:57,457 | 65F120791A2D4E4C874F707FE592861A | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-9] listStudentIds: [3, 4, 5, 6]
-2019-05-30 18:24:57,465 | 65F120791A2D4E4C874F707FE592861A | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-9] listStudentIds: [com.exercisetwo.entity.Student@49d13fc1, com.exercisetwo.entity.Student@39383c3f, com.exercisetwo.entity.Student@31f96ca1, com.exercisetwo.entity.Student@68d5ceb3]
-2019-05-30 18:24:57,469 | 65F120791A2D4E4C874F707FE592861A | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-9] classe no es null
-2019-05-30 18:50:34,586 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 18:50:34,601 | B8712C300E7E4093BE44820383D16927 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 18:50:34,697 | B8712C300E7E4093BE44820383D16927 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [1, 2]
-2019-05-30 18:50:34,818 | B8712C300E7E4093BE44820383D16927 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [com.exercisetwo.entity.Student@4d217277, com.exercisetwo.entity.Student@52253db2]
-2019-05-30 18:50:35,070 | B8712C300E7E4093BE44820383D16927 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] classe no es null
-2019-05-30 18:51:11,117 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 18:51:11,118 | 51884B160D8D4E189274181AB3815E4C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 18:51:11,121 | 51884B160D8D4E189274181AB3815E4C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: [3, 4, 5, 6]
-2019-05-30 18:51:11,207 | 51884B160D8D4E189274181AB3815E4C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: [com.exercisetwo.entity.Student@27f606bf, com.exercisetwo.entity.Student@4d52ef0c, com.exercisetwo.entity.Student@7e0d4d87, com.exercisetwo.entity.Student@160b08e7]
-2019-05-30 18:51:11,278 | 51884B160D8D4E189274181AB3815E4C | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] classe no es null
-2019-05-30 19:10:31,302 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 19:10:36,319 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 21.234 seconds (JVM running for 29.137)
-2019-05-30 19:10:36,541 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 19:10:36,542 | B52E5D6108284DB2B1E8ADF9FA68E6E3 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 19:10:36,907 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@49a6f486
-2019-05-30 19:12:02,836 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 19:12:06,759 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 8.877 seconds (JVM running for 10.54)
-2019-05-30 19:12:06,864 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 19:12:06,865 | 82C05B639A0B464BBDCDA456AEBA102E | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 19:12:07,324 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@6d099323
-2019-05-30 19:13:58,296 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 19:14:01,905 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 8.431 seconds (JVM running for 10.117)
-2019-05-30 19:14:02,041 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 19:14:02,059 | 7E5DC1322CC54238B9E019E65EBDECBA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 19:14:02,356 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@6d099323
-2019-05-30 19:16:52,598 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 19:16:55,875 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 7.917 seconds (JVM running for 9.9)
-2019-05-30 19:16:55,973 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 19:16:55,974 | FBB636795F214939ADCBE5EF342D2CA2 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 19:16:56,145 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@3a90c13c
-2019-05-30 19:43:36,451 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 19:43:40,431 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 8.992 seconds (JVM running for 13.537)
-2019-05-30 19:43:40,604 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 19:43:40,606 | E946982E3E25453696E4518507BCD061 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 19:43:40,986 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@60c1663c
-2019-05-30 20:02:07,375 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 20:02:07,385 | 9F02B9ED252844CAA733116CA1A09C73 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 20:03:16,376 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 20:03:16,376 | EC82B7D3FBBC49699177F1FC947CDA53 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 20:03:18,593 | EC82B7D3FBBC49699177F1FC947CDA53 | INFO com.exercisetwo.controller.TeacherController [http-nio-9902-exec-6] Registrando nuevo Teacher.
-2019-05-30 20:05:16,495 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 20:05:16,495 | A73B56CB1AB24FB68932552137B56466 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 20:05:16,538 | A73B56CB1AB24FB68932552137B56466 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] listStudentIds: [3, 4, 5, 6]
-2019-05-30 20:05:16,721 | A73B56CB1AB24FB68932552137B56466 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] listStudentIds: [com.exercisetwo.entity.Student@58226d01, com.exercisetwo.entity.Student@7dcf5f7a, com.exercisetwo.entity.Student@26564a5, com.exercisetwo.entity.Student@48ae1a23]
-2019-05-30 20:05:16,863 | A73B56CB1AB24FB68932552137B56466 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-7] classe no es null
-2019-05-30 20:13:24,153 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 20:13:29,162 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 10.163 seconds (JVM running for 14.078)
-2019-05-30 20:13:29,384 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 20:13:29,384 | 4DF5A7CF5DBC43DBBD03AF3C32CC52EE | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 20:18:34,540 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 20:18:38,448 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 9.339 seconds (JVM running for 11.272)
-2019-05-30 20:18:38,563 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 20:18:38,567 | EE20B453A6AD48BA9BEDCA91D522B7D4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 20:19:17,023 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 20:19:20,583 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 8.561 seconds (JVM running for 10.485)
-2019-05-30 20:19:20,667 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 20:19:20,667 | 162FABD684804427A93BE34FBDC4E20D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 20:38:37,995 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 20:38:41,370 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 8.201 seconds (JVM running for 9.811)
-2019-05-30 20:38:41,480 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 20:38:41,480 | D2750C1A3D1C4AC391224EC86E15BEA4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 20:54:10,136 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 20:54:14,057 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 9.192 seconds (JVM running for 10.947)
-2019-05-30 20:54:14,397 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 20:54:14,398 | 50F3B051D5024528ACE002B04311A64D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 21:00:17,630 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 21:00:21,064 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 8.207 seconds (JVM running for 10.098)
-2019-05-30 21:00:21,189 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 21:00:21,209 | 718FC8046D844555A6F45F94FE1D7BC5 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 21:08:37,971 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-30 21:08:41,539 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 8.095 seconds (JVM running for 9.716)
-2019-05-30 21:08:41,639 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
-2019-05-30 21:08:41,640 | 4B3D55DFC40C4251A0C16EBAC6C94041 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
-2019-05-30 21:13:00,730 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 21:13:00,731 | 6BEF16424693460E9AC9AF18CC03AD65 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 21:13:30,175 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 21:13:30,176 | C0855B3A5C99466294B9FD510D0623D9 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 21:13:38,667 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
-2019-05-30 21:13:38,668 | 7D37D77253914BCE94B516193392AC45 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
-2019-05-30 21:14:18,857 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
-2019-05-30 21:14:18,857 | 43E41C2482424967BD0FDBF8511752BA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
-2019-05-30 21:15:00,397 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
-2019-05-30 21:15:00,397 | 6500B5CA16644A1790E263DBEEEE3A8C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
-2019-05-30 21:15:05,485 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
-2019-05-30 21:15:05,486 | 714CB12EDB664E8C8F729B19C6B2F426 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
-2019-05-30 21:16:08,105 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
-2019-05-30 21:16:08,106 | 8629EA05C7064C6C8FC9E2FCF9E9654D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
-2019-05-30 21:16:42,939 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
-2019-05-30 21:16:42,940 | 4AD2D84627C7460381DE4DC97AC38991 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
-2019-05-30 21:16:43,325 | 4AD2D84627C7460381DE4DC97AC38991 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-9] listStudentIds: [1, 2]
-2019-05-30 21:16:44,376 | 4AD2D84627C7460381DE4DC97AC38991 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-9] listStudentIds: [com.exercisetwo.entity.Student@58226d01, com.exercisetwo.entity.Student@7dcf5f7a, com.exercisetwo.entity.Student@26564a5, com.exercisetwo.entity.Student@48ae1a23]
-2019-05-30 21:16:44,948 | 4AD2D84627C7460381DE4DC97AC38991 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-9] classe no es null
-2019-05-30 21:17:12,344 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
-2019-05-30 21:17:12,344 | 547B2674E4D04E429E2CDA2B0A031C67 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
-2019-05-30 21:17:21,383 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
-2019-05-30 21:17:21,384 | 463010541BF44934B75A1C0AB367D89F | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
-2019-05-30 21:18:13,780 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
-2019-05-30 21:18:13,781 | 9938629EF8264FCBAC9EDABC371548A5 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
-2019-05-30 21:18:17,940 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
-2019-05-30 21:18:17,940 | 248F22CB1CBD4F0C9CA88F0FE4A16335 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
-2019-05-30 21:18:17,963 | 248F22CB1CBD4F0C9CA88F0FE4A16335 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] listStudentIds: [1, 2]
-2019-05-30 21:18:18,023 | 248F22CB1CBD4F0C9CA88F0FE4A16335 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] listStudentIds: [com.exercisetwo.entity.Student@34e6c3fc, com.exercisetwo.entity.Student@448ec698]
-2019-05-30 21:18:18,032 | 248F22CB1CBD4F0C9CA88F0FE4A16335 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] classe no es null
+2019-05-31 09:57:15,993 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 09:57:21,387 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 11.965 seconds (JVM running for 15.821)
+2019-05-31 09:57:21,512 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 09:57:21,512 | 26D5F84D11AE423994060765604714F0 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 09:57:21,919 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@1756f7cc
+2019-05-31 09:59:30,950 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 09:59:34,541 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 9.058 seconds (JVM running for 11.138)
+2019-05-31 09:59:34,760 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 09:59:34,769 | 2E34F3B6050145688B87E044C3DFD5C6 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 09:59:35,067 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@6d08b4e6
+2019-05-31 09:59:56,878 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 10:00:00,434 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 8.53 seconds (JVM running for 11.114)
+2019-05-31 10:00:00,746 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 10:00:00,752 | C4A40F5780F344A9B8068FE1F767D437 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 10:00:01,034 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@2525a5b8
+2019-05-31 11:05:55,861 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:06:00,661 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 12.558 seconds (JVM running for 18.44)
+2019-05-31 11:06:00,708 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] date1: Wed May 29 10:43:55 COT 2019
+date2: Fri May 29 10:43:55 COT 2020
+2019-05-31 11:06:01,645 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:06:01,655 | 6638161F0FB243149DC034A3CF27E08A | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:06:03,446 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@6749fe50
+2019-05-31 11:07:57,409 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:08:01,324 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 8.875 seconds (JVM running for 11.009)
+2019-05-31 11:08:01,363 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] date1: Tue Jan 29 10:43:55 COT 2019
+date2: Wed Jan 29 10:43:55 COT 2020
+2019-05-31 11:08:01,551 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:08:01,551 | E36301518E434D6388450682B5FC8046 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:08:01,613 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@127705e4
+2019-05-31 11:12:58,838 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:13:16,958 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
+2019-05-31 11:14:02,211 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 77.33 seconds (JVM running for 88.297)
+2019-05-31 11:26:24,614 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:26:29,927 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
+2019-05-31 11:26:38,602 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 18.367 seconds (JVM running for 19.834)
+2019-05-31 11:28:10,389 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
+2019-05-31 11:28:10,492 | 08C4539714E8471DA5F8AEB79F17EA93 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
+2019-05-31 11:30:31,042 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:30:37,634 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 14.27 seconds (JVM running for 17.124)
+2019-05-31 11:30:37,659 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] 
+date1: Tue Jan 29 10:43:55 COT 2019
+date2: Wed Jan 29 10:43:55 COT 2020
+2019-05-31 11:30:38,715 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:30:38,715 | DF1FD1D8B8364F829F99371B942950D6 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:30:38,894 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@3e5fd2b1
+2019-05-31 11:32:24,329 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:32:27,642 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 8.124 seconds (JVM running for 10.22)
+2019-05-31 11:32:27,676 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] 
+date1: Tue Jan 29 10:43:55 COT 2019
+date2: Wed Jan 29 10:43:55 COT 2020
+2019-05-31 11:32:28,029 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:32:28,030 | C03BA1370CDC4A12AE43C83E05CB0BF3 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:32:28,110 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@44be69aa
+2019-05-31 11:40:06,195 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:40:31,891 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 30.509 seconds (JVM running for 36.913)
+2019-05-31 11:40:31,973 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] 
+date1: Tue Jan 29 10:43:55 COT 2019
+date2: Wed Jan 29 10:43:55 COT 2020
+2019-05-31 11:40:32,362 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:40:32,362 | 6711CB403E69450BA2FBF23427BA37DA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:40:32,427 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@4db60246
+2019-05-31 11:45:25,815 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:45:29,154 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 9.295 seconds (JVM running for 14.507)
+2019-05-31 11:45:29,185 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] 
+date1: Tue Jan 29 10:43:55 COT 2019
+date2: Wed Jan 29 10:43:55 COT 2020
+2019-05-31 11:45:29,446 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:45:29,448 | AC0F2035FA9C40449F06D99D9B0C5030 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:45:29,494 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@9b76b60
+2019-05-31 11:49:04,232 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:49:15,067 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 20.161 seconds (JVM running for 22.503)
+2019-05-31 11:49:15,220 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] 
+date1: Tue Jan 29 10:43:55 COT 2019
+date2: Wed Jan 29 10:43:55 COT 2020
+2019-05-31 11:49:16,326 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:49:16,327 | F6A44899F88542B58BFECE163B4209F2 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:49:16,819 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@6b63e6ad
+2019-05-31 11:51:23,192 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:51:28,510 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 10.421 seconds (JVM running for 15.591)
+2019-05-31 11:51:28,675 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:51:28,677 | 496F3F0309684CAC9366815D24D51091 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:51:30,269 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@cb39552
+2019-05-31 11:55:25,392 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:55:29,340 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 9.352 seconds (JVM running for 11.453)
+2019-05-31 11:55:29,460 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:55:29,461 | 1BBD14DBB2EC42F4B840C1997E1A0390 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:55:29,782 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@127705e4
+2019-05-31 11:56:04,267 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:56:08,725 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 9.664 seconds (JVM running for 11.759)
+2019-05-31 11:56:08,838 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:56:08,839 | 727078C169764168A9ACBDC879E822F9 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:56:10,001 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@7c1447b5
+2019-05-31 11:59:01,711 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:59:08,994 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 12.4 seconds (JVM running for 14.466)
+2019-05-31 11:59:09,099 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 11:59:09,100 | 590BC2A0A3B243BB9E25DB007A8004B1 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 11:59:09,313 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@2d760326
+2019-05-31 12:09:42,678 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:09:57,471 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 23.231 seconds (JVM running for 31.951)
+2019-05-31 12:09:58,175 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 12:09:58,175 | E97FCD355522483F92B5BBAB1B45FFBE | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 12:09:59,477 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@48a663e9
+2019-05-31 12:12:45,863 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:12:51,294 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 10.432 seconds (JVM running for 12.27)
+2019-05-31 12:12:51,419 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 12:12:51,435 | 00A36EF1E21A4A28A588A06BEB8FE883 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 12:12:51,673 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@72b43104
+2019-05-31 12:14:14,092 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:14:18,414 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 9.065 seconds (JVM running for 11.221)
+2019-05-31 12:14:18,891 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 12:14:18,891 | 04364B1F166B4429B5E23B4E9E050B11 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 12:14:19,423 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@74d6736
+2019-05-31 12:26:09,406 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
+2019-05-31 12:26:11,420 | 48E891DACC5F412F82E21C8831AD39AF | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
+2019-05-31 12:26:35,145 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
+2019-05-31 12:26:35,145 | 2795426CB4D843D88B1B7028469734E8 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
+2019-05-31 12:28:29,621 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:28:45,772 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 24.991 seconds (JVM running for 47.244)
+2019-05-31 12:28:46,272 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 12:28:46,276 | 1958524ED7234AFE9033832CDBF4E303 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 12:28:47,257 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@b5de58f
+2019-05-31 12:30:19,611 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:30:28,047 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 15.964 seconds (JVM running for 28.24)
+2019-05-31 12:30:28,582 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 12:30:28,583 | B74C8B9CF8B84CE78A72FBC14AAACEC6 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 12:30:29,419 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@939ff41
+2019-05-31 12:32:28,478 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:33:00,241 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 43.538 seconds (JVM running for 56.903)
+2019-05-31 12:33:00,406 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 12:33:00,408 | 0AAE8CE848F2441F911E18D36CCEA119 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 12:33:01,124 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@48a663e9
+2019-05-31 12:47:36,909 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:51:59,759 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:53:39,636 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:58:50,906 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:58:54,992 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 9.08 seconds (JVM running for 11.215)
+2019-05-31 12:58:55,691 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:58:55,691 | A2B25675237447118787F29E34ACF613 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:58:55,910 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@111d5c97
+2019-05-31 12:58:55,948 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:58:55,948 | 6EE2AFD8E9144C258219DDC3F1B12417 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:58:55,948 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@7d986d83
+2019-05-31 12:58:55,964 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:58:55,964 | 4AC775F7F2394FF1B472EFC352E65A43 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:58:56,008 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@5a917723
+2019-05-31 12:58:56,023 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:58:56,023 | F13151EE370F4181BD421A8580F141BA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:58:56,023 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@7e4579c7
+2019-05-31 12:58:59,931 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:59:01,903 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 5.848 seconds (JVM running for 18.125)
+2019-05-31 12:59:01,912 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:59:01,912 | 5313D48DD0D246E6AEBA31AE58C74A7D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:59:01,918 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@75d366c2
+2019-05-31 12:59:01,924 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:59:01,925 | 905C310874AB46D9A596CACCFB8A0BF7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:59:01,933 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@8f40022
+2019-05-31 12:59:01,943 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:59:01,944 | DF021DCBB6684BF296ED0016221224DA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:59:01,947 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@5232e3f1
+2019-05-31 12:59:06,025 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:59:07,760 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 5.79 seconds (JVM running for 23.982)
+2019-05-31 12:59:07,785 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:59:07,785 | 86019263F7344166A7458E86DD9946D8 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:59:07,801 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@320be73
+2019-05-31 12:59:07,801 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:59:07,801 | B2B65F2A9A0946AF95A42FC256C073D1 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:59:07,816 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@435e416c
+2019-05-31 12:59:07,832 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:59:07,832 | 40FDCF13BCDA4CCF8754354B88332F6A | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:59:07,847 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@6af310c7
+2019-05-31 12:59:07,863 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 12:59:07,863 | AB791B3145F540D79EDAD09321D3C933 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 12:59:07,863 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@4aed311e
+2019-05-31 12:59:11,873 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:59:37,435 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplicationTests in 29.509 seconds (JVM running for 53.657)
+2019-05-31 13:03:54,906 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:04:09,464 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 33.107 seconds (JVM running for 38.639)
+2019-05-31 13:04:14,010 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:14,011 | 1B2A585E24C64676B7A64DA9C7A3D223 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:14,491 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@7aadf751
+2019-05-31 13:04:14,572 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:14,573 | 7F3370A7749F48F68CACF6E6B68D4230 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:14,577 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@33ad9708
+2019-05-31 13:04:14,610 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:14,612 | F6F9A1D2450E46B2BFFB6C819F43D831 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:14,695 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@4348ea5e
+2019-05-31 13:04:14,707 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:14,707 | 0614B2A26E5542839308FC2907A42D18 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:14,707 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@6d74cd1d
+2019-05-31 13:04:18,535 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:04:20,671 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 5.917 seconds (JVM running for 49.845)
+2019-05-31 13:04:20,688 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:20,689 | 346877E190874AF2A7CBB8FBA3E1CB73 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:20,698 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@7b609fa2
+2019-05-31 13:04:20,705 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:20,706 | 288CD98B61EA415DBEBEE9528138BCB7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:20,716 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@6a5fcb32
+2019-05-31 13:04:20,737 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:20,738 | 8773C00CB1CD484A8650AA0F6BA7B3DD | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:20,747 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@43d71f50
+2019-05-31 13:04:24,739 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:04:26,460 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 5.674 seconds (JVM running for 55.635)
+2019-05-31 13:04:26,474 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:26,476 | 86933EA3D39B464BAEE01F5110DDE1DC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:26,489 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@2f5a3f3b
+2019-05-31 13:04:26,498 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:26,499 | 7592FC5E67064C369843ED799AD62E94 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:26,517 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@3192f6c3
+2019-05-31 13:04:26,528 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:26,529 | F53ED24B5326458DABD46AF2B3D21868 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:26,532 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@396b1958
+2019-05-31 13:04:26,544 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:04:26,544 | 120724EB14F941E888310755008A8278 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:04:26,547 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@1263613f
+2019-05-31 13:04:30,525 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:05:05,208 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplicationTests in 38.564 seconds (JVM running for 94.381)
+2019-05-31 13:26:10,112 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:26:18,660 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 14.021 seconds (JVM running for 17.263)
+2019-05-31 13:26:20,575 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:20,577 | 07023E91CEE042B4B163C5F6B61B780F | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:21,521 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@6dd36ab6
+2019-05-31 13:26:21,566 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:21,566 | 5C67DF236C054E42BBC14414B867572E | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:21,566 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@f29353f
+2019-05-31 13:26:21,613 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:21,613 | 28C4CBDE73FE4BB388A0BAF99C712FEC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:21,684 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@3b332962
+2019-05-31 13:26:21,692 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:21,693 | DFF60D08C96D4265867D2DF5B3F79DAC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:21,698 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@57ddd45b
+2019-05-31 13:26:25,640 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:26:27,404 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 5.66 seconds (JVM running for 26.004)
+2019-05-31 13:26:27,419 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:27,419 | E7F9E24F1A8F411ABE59587E6963387D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:27,450 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@1c30cb85
+2019-05-31 13:26:27,461 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:27,463 | 536F6584071B4743843FCAD5481AEC1E | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:27,471 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@577bf0aa
+2019-05-31 13:26:27,478 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:27,478 | 4339553F61374B9396F4E4218E74A92B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:27,481 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@7455dacb
+2019-05-31 13:26:32,036 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:26:33,801 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 6.27 seconds (JVM running for 32.392)
+2019-05-31 13:26:33,824 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:33,825 | B259F60FA1DA4B2C95CC6FBA827CC3C3 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:33,833 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@4cc12db2
+2019-05-31 13:26:33,843 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:33,844 | 2B6EC191C592430EA0A127AF8D6B6DD7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:33,852 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@5ea7bc4
+2019-05-31 13:26:33,859 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:33,860 | 14D261DED27844A699D8B037D5B9EFB7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:33,881 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@39d77de9
+2019-05-31 13:26:33,897 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:26:33,898 | BFD579251F0345B9A17F5E4F1350F9BF | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:26:33,904 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@696fad31
+2019-05-31 13:26:37,927 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:27:06,413 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplicationTests in 32.479 seconds (JVM running for 65.016)
+2019-05-31 13:29:13,643 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:29:18,835 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 13.607 seconds (JVM running for 17.88)
+2019-05-31 13:29:19,629 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:19,630 | B30E69D740E74D14A4DE8B797D8F9D7B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:19,945 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@5d2ab65
+2019-05-31 13:29:20,000 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:20,000 | 4E1C133985194EEDAD3C0FB854F07DB1 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:20,015 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@166872e0
+2019-05-31 13:29:20,031 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:20,033 | 5EE2981FE08D429BB3A5090E011F747E | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:20,112 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@4ac08f7c
+2019-05-31 13:29:20,128 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:20,128 | B9F4187FE1CA44F2877B9FC0929B3087 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:20,128 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@20d9ea6
+2019-05-31 13:29:24,002 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:29:25,872 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 5.682 seconds (JVM running for 24.92)
+2019-05-31 13:29:25,888 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:25,893 | 51A05F7A7D014C2CB27B6D861DC269D4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:25,906 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@5fc4c2a5
+2019-05-31 13:29:25,917 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:25,917 | CE85DB5605984DCE9167E95C5EC0F459 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:25,927 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@1ef13431
+2019-05-31 13:29:25,937 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:25,938 | B39433F5905F48129C318D1B9621DC6B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:25,968 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@5ec112cf
+2019-05-31 13:29:30,378 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:29:31,977 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 5.95 seconds (JVM running for 31.036)
+2019-05-31 13:29:32,003 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:32,004 | 58BBB10184664BA3A579E61843D73DD1 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:32,017 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@33ddc39b
+2019-05-31 13:29:32,032 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:32,033 | 5C0161C5294B4E73AA1D2D7DA1391574 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:32,046 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@2918e3d7
+2019-05-31 13:29:32,053 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:32,053 | 458901EC35014F82AC62BED95208594B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:32,053 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@9796870
+2019-05-31 13:29:32,069 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 13:29:32,069 | EAD1686A70D44CABBBB649FFC11DFA36 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 13:29:32,069 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@2f6b3859
+2019-05-31 13:29:36,331 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:30:18,150 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplicationTests in 46.05 seconds (JVM running for 77.209)
+2019-05-31 13:44:37,060 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:45:20,237 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplicationTests in 49.268 seconds (JVM running for 54.706)
+2019-05-31 14:14:31,510 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:14:38,655 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 13.189 seconds (JVM running for 18.315)
+2019-05-31 14:14:38,863 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:38,875 | 0CAC5ED30DC64EE1BBC51BCFF54FD344 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:39,349 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@2f10f633
+2019-05-31 14:14:39,425 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:39,425 | 0EF4D6A90C8A444882518C88111B9042 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:39,440 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@3069a360
+2019-05-31 14:14:39,472 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:39,473 | 13C3C5A5782A42AEAF52412BE682EAA0 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:39,583 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@1860f3be
+2019-05-31 14:14:39,590 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:39,591 | 6C8100258B8843A298824BB88CCC48A7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:39,595 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@6cd15072
+2019-05-31 14:14:44,756 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:14:47,105 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 7.44 seconds (JVM running for 26.764)
+2019-05-31 14:14:47,116 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:47,117 | BED61D8A3C6C4F8192CED1CE81656631 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:47,125 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@2f79f192
+2019-05-31 14:14:47,139 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:47,139 | 85DF57CD8B4E4CD0B8AC1C99576E60CD | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:47,155 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@5fdfe8cf
+2019-05-31 14:14:47,164 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:47,165 | 3636CB0B666A445D8C0472A907D387FE | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:47,170 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@2a8b33ba
+2019-05-31 14:14:52,678 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:14:54,505 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 7.28 seconds (JVM running for 34.164)
+2019-05-31 14:14:54,515 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:54,516 | E651FF05F2154CAA85CB11EEAD5B3D54 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:54,536 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@14f060b8
+2019-05-31 14:14:54,545 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:54,545 | B0909B23AA424C549383F7D9E14844C5 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:54,557 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@7a0ab480
+2019-05-31 14:14:54,564 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:54,565 | 89663F32D9794340A8D777364A78E6E8 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:54,569 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@79df80a4
+2019-05-31 14:14:54,591 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:14:54,591 | E42C66534C874474BAA38C1EBD58B681 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:14:54,595 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@130cfc47
+2019-05-31 14:14:58,934 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:15:49,539 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplicationTests in 54.923 seconds (JVM running for 89.198)
+2019-05-31 14:17:15,659 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:17:22,040 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 14.104 seconds (JVM running for 18.681)
+2019-05-31 14:17:22,360 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:22,364 | 98664F5751F547D8B85F82DDA7DB5EBD | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:22,804 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@7967b127
+2019-05-31 14:17:22,899 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:22,900 | 78D5F0E6416344AC92B19E4F33C01E87 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:22,905 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@1f6cb22e
+2019-05-31 14:17:22,919 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:22,920 | D15A4A326CCB462298FEBD0962ADE653 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:23,022 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@28f87cc
+2019-05-31 14:17:23,032 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:23,033 | EF97E102B57645E78890AE11044FBB69 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:23,037 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@120d4d37
+2019-05-31 14:17:27,451 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:17:29,933 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 6.86 seconds (JVM running for 26.574)
+2019-05-31 14:17:29,947 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:29,947 | 5D6683B1D46F4C83A6C875CEDBFA7262 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:29,960 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@5a3b5af
+2019-05-31 14:17:29,973 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:29,974 | AE2F091DE9284375B39B7957B313BCB7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:29,989 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@4d697229
+2019-05-31 14:17:29,997 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:29,998 | 5B04D7E1F76543A48D44D681019068BB | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:30,002 |  | INFO com.exercisetwo.controller.SubjectControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@4690b662
+2019-05-31 14:17:34,279 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:17:36,167 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 6.136 seconds (JVM running for 32.808)
+2019-05-31 14:17:36,177 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:36,178 | 11DD7EDEEBA4467D8AD3924B131E7B3B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:36,219 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@495612a8
+2019-05-31 14:17:36,233 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:36,234 | ECB1281DE1CD47709F6CD8D31AD4DDFC | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:36,263 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@2228e00
+2019-05-31 14:17:36,270 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:36,288 | CD5E15089A5042E5A99EAE25B1789A01 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:36,303 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@41c1ee01
+2019-05-31 14:17:36,316 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader s� est� vac�o.
+2019-05-31 14:17:36,317 | 412C82722F414EAFBD998FCCB3399C1D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no est� vac�o.
+2019-05-31 14:17:36,328 |  | INFO com.exercisetwo.controller.TeacherControllerTest [main] org.springframework.mock.web.MockHttpServletResponse@6e6cba95
+2019-05-31 14:17:40,302 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:18:17,004 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplicationTests in 40.626 seconds (JVM running for 73.644)
+2019-05-31 14:51:09,071 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
+2019-05-31 14:51:10,787 | A3DA34FE10C44636A0CBDB0A3E541E25 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
+2019-05-31 14:51:44,038 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
+2019-05-31 14:51:44,039 | 946C8789AD7549D8860E7C86177E4E03 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
+2019-05-31 14:52:25,071 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
+2019-05-31 14:52:25,096 | 0B1626A5BDE8421CA62DBA8217AA6759 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
+2019-05-31 15:11:15,816 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:11:22,083 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
+2019-05-31 15:11:41,434 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 31.973 seconds (JVM running for 34.094)
+2019-05-31 15:13:51,706 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
+2019-05-31 15:13:51,731 | 87722CE89208466B9CED88533E5DEAFE | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
+2019-05-31 15:15:51,028 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
+2019-05-31 15:15:51,028 | 233C0890D2F245E29A7509BF8A0D84AA | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
+2019-05-31 15:15:51,203 | 233C0890D2F245E29A7509BF8A0D84AA | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] listStudentIds: [1, 2]
+2019-05-31 15:15:52,683 | 233C0890D2F245E29A7509BF8A0D84AA | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] listStudentIds: [com.exercisetwo.entity.Student@4372dc7e, com.exercisetwo.entity.Student@46015e99]
+2019-05-31 15:15:52,974 | 233C0890D2F245E29A7509BF8A0D84AA | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] classe no es null
+2019-05-31 15:50:46,092 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:51:52,339 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
+2019-05-31 16:02:54,226 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 735.722 seconds (JVM running for 737.898)
+2019-05-31 16:10:38,754 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
+2019-05-31 16:10:38,755 | FA77AB897C414AC4ACD4BF632D966702 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
+2019-05-31 16:10:39,585 | FA77AB897C414AC4ACD4BF632D966702 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: [1, 2]
+2019-05-31 16:10:43,206 | FA77AB897C414AC4ACD4BF632D966702 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] listStudentIds: []
+2019-05-31 16:10:44,064 | FA77AB897C414AC4ACD4BF632D966702 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-1] classe no es null
+2019-05-31 16:11:01,064 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
+2019-05-31 16:11:01,089 | F007138FB8EE4FB3ACDD9F2E50423FF9 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
+2019-05-31 16:11:01,096 | F007138FB8EE4FB3ACDD9F2E50423FF9 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: [1, 2]
+2019-05-31 16:11:01,274 | F007138FB8EE4FB3ACDD9F2E50423FF9 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: [com.exercisetwo.entity.Student@69a18fae, com.exercisetwo.entity.Student@1b95cb0b]
+2019-05-31 16:11:01,279 | F007138FB8EE4FB3ACDD9F2E50423FF9 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] classe no es null
+2019-05-31 16:12:00,652 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
+2019-05-31 16:12:00,653 | F86D89696DE74B7884B8A9F402DEAA96 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
+2019-05-31 16:12:00,658 | F86D89696DE74B7884B8A9F402DEAA96 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] listStudentIds: [1, 2]
+2019-05-31 16:12:00,672 | F86D89696DE74B7884B8A9F402DEAA96 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] listStudentIds: [com.exercisetwo.entity.Student@44ac9874, com.exercisetwo.entity.Student@7809a04f]
+2019-05-31 16:12:00,677 | F86D89696DE74B7884B8A9F402DEAA96 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-3] classe no es null
+2019-05-31 16:12:50,300 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
+2019-05-31 16:12:50,301 | C9FD174D284240379738BDBF542B3271 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
+2019-05-31 16:12:50,305 | C9FD174D284240379738BDBF542B3271 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] listStudentIds: [1, 2]
+2019-05-31 16:12:50,319 | C9FD174D284240379738BDBF542B3271 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] listStudentIds: [com.exercisetwo.entity.Student@184f1b, com.exercisetwo.entity.Student@28201c10]
+2019-05-31 16:12:50,323 | C9FD174D284240379738BDBF542B3271 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] classe no es null
+2019-05-31 16:27:50,141 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
+2019-05-31 16:27:50,379 | 03332994B4F549918FD863890085FD59 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
+2019-05-31 16:28:00,832 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
+2019-05-31 16:28:00,833 | 7831DCB0A19745979B7CD2BCED342B29 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
+2019-05-31 16:28:01,928 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
+2019-05-31 16:28:01,928 | 32965B77B93C466D914CCC69DE790D99 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
+2019-05-31 16:29:43,474 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
+2019-05-31 16:29:43,474 | 2C9D047FA71744A99C36239107383D42 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
+2019-05-31 16:29:43,490 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] requestHeader sí está vacío.
+2019-05-31 16:29:43,490 | 80A3EFEC8AE7488D92AB17C99E6F9582 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-4] responseHeader no está vacío.
+2019-05-31 16:30:09,978 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] requestHeader sí está vacío.
+2019-05-31 16:30:09,978 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] requestHeader sí está vacío.
+2019-05-31 16:30:09,979 | FAD28D76B915436191DA36AA64DEEAE6 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-7] responseHeader no está vacío.
+2019-05-31 16:30:10,017 | 17B0D940596842DEBA953A723F164BB7 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-6] responseHeader no está vacío.
+2019-05-31 16:31:34,052 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] requestHeader sí está vacío.
+2019-05-31 16:31:34,111 | 768088600FC549C08FAA78B7A9D2A982 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-8] responseHeader no está vacío.
+2019-05-31 16:31:34,112 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
+2019-05-31 16:31:34,112 | 8A6491CDCFEE48339B7ACECD1401E9B4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
+2019-05-31 16:31:59,510 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] requestHeader sí está vacío.
+2019-05-31 16:31:59,510 | 01924B0C34E145B0A2592A1B6DF78F97 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-10] responseHeader no está vacío.
+2019-05-31 16:31:59,571 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
+2019-05-31 16:31:59,571 | C3D132FD68014CE6BC88D0997D2EAB5B | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
+2019-05-31 16:33:17,890 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
+2019-05-31 16:33:17,891 | 407164C7A69448F08BA566992EC868B4 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
+2019-05-31 16:33:18,119 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
+2019-05-31 16:33:18,188 | D22B438A4CD149D6967861EAFA12603C | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
+2019-05-31 16:36:03,399 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] requestHeader sí está vacío.
+2019-05-31 16:36:03,400 | 08B98411FAD04EBEAD45FFFFC13EFF86 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-9] responseHeader no está vacío.
+2019-05-31 16:57:00,060 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:57:06,605 |  | DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'slf4jMdcFilter' configured for use
+2019-05-31 16:57:15,728 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ExercisetwoApplication in 20.211 seconds (JVM running for 22.285)
+2019-05-31 16:58:50,900 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] requestHeader sí está vacío.
+2019-05-31 16:58:50,901 | BA6A48C3EB0940A9B8B735ED3C252786 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-1] responseHeader no está vacío.
+2019-05-31 16:59:15,818 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] requestHeader sí está vacío.
+2019-05-31 16:59:15,818 | CA0C34A59EB140F9B289DD9466A5ABC6 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-3] responseHeader no está vacío.
+2019-05-31 16:59:21,018 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] requestHeader sí está vacío.
+2019-05-31 16:59:21,019 | 110283D0D1B149EE98FD069FE39DC230 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-2] responseHeader no está vacío.
+2019-05-31 16:59:21,140 | 110283D0D1B149EE98FD069FE39DC230 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: [1, 2]
+2019-05-31 16:59:22,004 | 110283D0D1B149EE98FD069FE39DC230 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] listStudentIds: [com.exercisetwo.entity.Student@227001, com.exercisetwo.entity.Student@31a7bd7b]
+2019-05-31 16:59:22,044 | 110283D0D1B149EE98FD069FE39DC230 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-2] classe no es null
+2019-05-31 17:01:47,018 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] requestHeader sí está vacío.
+2019-05-31 17:01:47,018 | 02CFFACC751B41159C218F073066BD64 | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [http-nio-9902-exec-5] responseHeader no está vacío.
+2019-05-31 17:01:47,024 | 02CFFACC751B41159C218F073066BD64 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] listStudentIds: [1, 2]
+2019-05-31 17:01:47,038 | 02CFFACC751B41159C218F073066BD64 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] listStudentIds: [com.exercisetwo.entity.Student@377be728, com.exercisetwo.entity.Student@629c4a83]
+2019-05-31 17:01:47,042 | 02CFFACC751B41159C218F073066BD64 | INFO com.exercisetwo.controller.StudentClassController [http-nio-9902-exec-5] classe no es null
+2019-05-31 17:04:05,940 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:04:09,701 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 8.922 seconds (JVM running for 11.82)
+2019-05-31 17:04:09,871 |  | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] requestHeader sí está vacío.
+2019-05-31 17:04:09,872 | 8F397E746DE44140A0E0F8577DDE3D3D | INFO com.exercisetwo.logconfig.Slf4jMdcFilter [main] responseHeader no está vacío.
+2019-05-31 17:04:10,292 |  | INFO com.exercisetwo.controller.ClassControllerTest [main] result.getResponse().toString(): org.springframework.mock.web.MockHttpServletResponse@63300c4b
